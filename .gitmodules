@@ -1,0 +1,3 @@
+[submodule "bibliography-files"]
+	path = bibliography-files
+	url = https://eschoute@gitlab.umiacs.umd.edu/eschoute/bibliography-files.git
