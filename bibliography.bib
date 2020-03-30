@@ -1086,14 +1086,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   urldate = {2018-10-09},
 }
 
-@Online{IBMQT,
-  author  = {{IBM Q Team}},
-  title   = {IBM Q Experience Devices},
-  year    = {2018},
-  url     = {https://quantumexperience.ng.bluemix.net/qx/devices},
-  urldate = {2018-10-09},
-}
-
 @Article{Barenco1995,
   author    = {Adriano Barenco and Charles H. Bennett and Richard Cleve and David P. DiVincenzo and Norman Margolus and Peter Shor and Tycho Sleator and John A. Smolin and Harald Weinfurter},
   title     = {Elementary gates for quantum computation},
@@ -1174,10 +1166,11 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   publisher = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
 }
 
-@Online{Herbert2018,
+@Unpublished{Herbert2018,
   author      = {Steven Herbert},
-  title       = {On the depth overhead incurred when running quantum algorithms on near-term quantum computers with limited qubit connectivity},
   date        = {2018-09-25},
+  title       = {On the depth overhead incurred when running quantum algorithms on near-term quantum computers with limited qubit connectivity},
+  pubstate    = {prepublished},
   abstract    = {This paper addresses the problem of finding the depth overhead that will be incurred when running quantum algorithms on near-term quantum computers. Specifically, it is envisaged that near-term quantum computers will have low qubit connectivity: each qubit will only be able to interact with a subset of the other qubits, a reality typically represented by a qubit interaction graph in which a vertex represents a qubit and an edge represents a possible direct 2-qubit interaction (gate). Thus the depth overhead is unavoidably incurred by introducing swap gates into the quantum circuit to enable general qubit interactions. This paper proves that there exist quantum circuits where a depth overhead in $\Omega(\log n)$ must necessarily be incurred when running quantum algorithms with $n$ qubits on quantum computers whose qubit interaction graph has finite degree, but that such a depth overhead is achievable.},
   eprint      = {1805.12570v4},
   eprintclass = {quant-ph},
@@ -1234,13 +1227,14 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   publisher  = {ACM},
 }
 
-@Online{Schoute2019,
+@Misc{Schoute2019,
   author   = {Eddie Schoute and Cem Unsal and Andrew Childs},
   title    = {arct},
-  year     = {2019},
-  url      = {https://gitlab.umiacs.umd.edu/amchilds/arct},
   subtitle = {architecture-respect circuit transformations},
+  type     = {software},
+  url      = {https://gitlab.umiacs.umd.edu/amchilds/arct},
   urldate  = {2019-02-24},
+  year     = {2019},
 }
 
 @Article{Narla2016,
@@ -2237,7 +2231,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   pages     = {1--29},
   volume    = {3},
   journal   = {Proceedings of the {ACM} on Programming Languages},
-  month     = {oct},
+  month     = {10},
   publisher = {Association for Computing Machinery ({ACM})},
   year      = {2019},
 }
@@ -2276,8 +2270,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   publisher  = {{IEEE}},
   venue      = {Tokyo, Japan},
   issn       = {2153-6961},
-  month      = {jan},
-  year       = {2014},
 }
 
 @InProceedings{Cowtan2019,
@@ -2297,6 +2289,38 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   abstract    = {We give an overview of the circuit optimisation methods used by tket, a compiler system for quantum software developed by Cambridge Quantum Computing Ltd. We focus on a novel technique based around phase gadgets, a family of multi-qubit quantum operations which occur naturally in a wide range of quantum circuits of practical interest. The phase gadgets have a simple presentation in the ZX-calculus, which makes it easy to reason about them. Taking advantage of this, we present an efficient method to translate the phase gadgets back to CNOT gates and single qubit operations suitable for execution on a quantum computer with significant reductions in gate count and circuit depth. We demonstrate the effectiveness of these methods on a quantum chemistry benchmarking set based on variational circuits for ground state estimation of small molecules.},
   file        = {:http\://arxiv.org/pdf/1906.01734v1:PDF},
   keywords    = {quant-ph, cs.LO},
+}
+
+@Online{Lin2019,
+  author      = {Joseph X. Lin and Eric R. Anschuetz and Aram W. Harrow},
+  date        = {2019-10-25},
+  title       = {Using Spectral Graph Theory to Map Qubits onto Connectivity-Limited Devices},
+  abstract    = {We propose an efficient heuristic for mapping the logical qubits of quantum algorithms to the physical qubits of connectivity-limited devices, adding a minimal number of connectivity-compliant SWAP gates. In particular, given a quantum circuit, we construct an undirected graph with edge weights a function of the two-qubit gates of the quantum circuit. Taking inspiration from spectral graph drawing, we use an eigenvector of the graph Laplacian to place logical qubits at coordinate locations. These placements are then mapped to physical qubits for a given connectivity. We primarily focus on one-dimensional connectivities, and sketch how the general principles of our heuristic can be extended for use in more general connectivities.},
+  eprint      = {1910.11489v1},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1910.11489v1:PDF},
+  keywords    = {quant-ph},
+}
+
+@Unpublished{Hietala2019,
+  author   = {Kesha Hietala and Robert Rand and Shih-Han Hung and Xiaodi Wu and Michael Hicks},
+  date     = {2019-11},
+  title    = {A Verified Optimizer for Quantum Circuits},
+  pubstate = {submitted},
+  url      = {https://github.com/inQWIRE/SQIR/},
+  urldate  = {2020-03-30},
+}
+
+@Report{McClure2019,
+  author      = {Doug McClure and Jay Gambetta},
+  date        = {2019-09-18},
+  institution = {IBM},
+  title       = {Quantum computation center opens},
+  type        = {techreport},
+  url         = {https://www.ibm.com/blogs/research/2019/09/quantum-computation-center/},
+  urldate     = {2020-03-30},
+  comment     = {Connectivity of IBM devices.},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
