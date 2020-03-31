@@ -1166,7 +1166,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   publisher = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
 }
 
-@Unpublished{Herbert2018,
+@Online{Herbert2018,
   author      = {Steven Herbert},
   date        = {2018-09-25},
   title       = {On the depth overhead incurred when running quantum algorithms on near-term quantum computers with limited qubit connectivity},
@@ -2321,6 +2321,57 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   url         = {https://www.ibm.com/blogs/research/2019/09/quantum-computation-center/},
   urldate     = {2020-03-30},
   comment     = {Connectivity of IBM devices.},
+}
+
+@Article{Sivarajah2020,
+  author      = {Seyon Sivarajah and Silas Dilkes and Alexander Cowtan and Will Simmons and Alec Edgington and Ross Duncan},
+  date        = {2020-03-24},
+  title       = {t$|$ket$\rangle$ : A Retargetable Compiler for NISQ Devices},
+  eprint      = {2003.10611v2},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  abstract    = {We present t$|$ket$\rangle$, a quantum software development platform produced by Cambridge Quantum Computing Ltd. The heart of t$|$ket$\rangle$ is a language-agnostic optimising compiler designed to generate code for a variety of NISQ devices, which has several features designed to minimise the influence of device error. The compiler has been extensively benchmarked and outperforms most competitors in terms of circuit optimisation and qubit routing.},
+  file        = {:http\://arxiv.org/pdf/2003.10611v2:PDF},
+  keywords    = {quant-ph},
+}
+
+@Unpublished{Kissinger2019,
+  author      = {Aleks Kissinger and John van de Wetering},
+  date        = {2019-04-09},
+  title       = {PyZX: Large Scale Automated Diagrammatic Reasoning},
+  abstract    = {The ZX-calculus is a graphical language for reasoning about ZX-diagrams, a tensor network-like language that can represent arbitrary linear maps between qubits. Using the ZX-calculus, we can intuitively reason about quantum mechanics, and optimise and validate quantum circuits. In this paper we introduce PyZX, an open source library for automated reasoning with large ZX-diagrams. We give a brief introduction to the ZX-calculus, then show how PyZX implements methods for circuit optimisation, equality validation, and visualisation and how it can be used in tandem with other software. We end with a set of challenges that when solved would expand the power of automated diagrammatic reasoning.},
+  eprint      = {1904.04735v1},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1904.04735v1:PDF},
+  keywords    = {quant-ph},
+  type        = {software},
+}
+
+@Article{Nash2020,
+  author       = {Beatrice Nash and Vlad Gheorghiu and Michele Mosca},
+  date         = {2020-03},
+  journaltitle = {Quantum Science and Technology},
+  title        = {Quantum circuit optimizations for {NISQ} architectures},
+  doi          = {10.1088/2058-9565/ab79b1},
+  number       = {2},
+  pages        = {025010},
+  volume       = {5},
+  keywords     = {steiner trees},
+  publisher    = {{IOP} Publishing},
+}
+
+@Online{Kissinger2019a,
+  author      = {Aleks Kissinger and Arianne Meijer-van de Griend},
+  date        = {2019-04-01},
+  title       = {CNOT circuit extraction for topologically-constrained quantum memories},
+  pubstate    = {prepublished},
+  abstract    = {Many physical implementations of quantum computers impose stringent memory constraints in which 2-qubit operations can only be performed between qubits which are nearest neighbours in a lattice or graph structure. Hence, before a computation can be run on such a device, it must be mapped onto the physical architecture. That is, logical qubits must be assigned physical locations in the quantum memory, and the circuit must be replaced by an equivalent one containing only operations between nearest neighbours. In this paper, we give a new technique for quantum circuit mapping (a.k.a. routing), based on Gaussian elimination constrained to certain optimal spanning trees called Steiner trees. We give a reference implementation of the technique for CNOT circuits and show that it significantly out-performs general-purpose routines on CNOT circuits. We then comment on how the technique can be extended straightforwardly to the synthesis of CNOT+Rz circuits and as a modification to a recently-proposed circuit simplification/extraction procedure for generic circuits based on the ZX-calculus.},
+  eprint      = {1904.00633v2},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1904.00633v2:PDF},
+  keywords    = {steiner trees},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
