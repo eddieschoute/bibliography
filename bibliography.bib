@@ -61,6 +61,19 @@
   crossref    = {isca2019},
 }
 
+@InProceedings{Murali2020,
+  author      = {Prakash Murali and Dripto M. Debroy and Kenneth R. Brown and Margaret Martonosi},
+  title       = {Architecting Noisy Intermediate-Scale Trapped Ion Quantum Computers},
+  eprint      = {2004.04706v1},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  pubstate    = {forthcoming},
+  abstract    = {Trapped ions (TI) are a leading candidate for building Noisy Intermediate-Scale Quantum (NISQ) hardware. TI qubits have fundamental advantages over other technologies such as superconducting qubits, including high qubit quality, coherence and connectivity. However, current TI systems are small in size, with 5-20 qubits and typically use a single trap architecture which has fundamental scalability limitations. To progress towards the next major milestone of 50-100 qubits, a modular architecture termed the Quantum Charge Coupled Device (QCCD) has been proposed. In a QCCD-based TI device, small traps are connected through ion shuttling. While the basic hardware components for such devices have been demonstrated, building a 50-100 qubit system is challenging because of a wide range of design possibilities for trap sizing, communication topology and gate implementations and the need to match diverse application resource requirements. Towards realizing QCCD systems with 50-100 qubits, we perform an extensive architectural study evaluating the key design choices of trap sizing, communication topology and operation implementation methods. We built a design toolflow which takes a QCCD architecture's parameters as input, along with a set of applications and realistic hardware performance models. Our toolflow maps the applications onto the target device and simulates their execution to compute metrics such as application run time, reliability and device noise rates. Using six applications and several hardware design points, we show that trap sizing and communication topology choices can impact application reliability by up to three orders of magnitude. Microarchitectural gate implementation choices influence reliability by another order of magnitude. From these studies, we provide concrete recommendations to tune these choices to achieve highly reliable and performant application executions.},
+  crossref    = {isca2020},
+  file        = {:http\://arxiv.org/pdf/2004.04706v1:PDF},
+  keywords    = {quant-ph},
+}
+
 @Article{Ambainis2007,
   author    = {Andris Ambainis},
   title     = {Quantum Walk Algorithm for Element Distinctness},
@@ -2557,6 +2570,27 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   type    = {software},
   url     = {https://github.com/quantumlib/Cirq},
   urldate = {2020-04-09},
+}
+
+@Article{Nam2018,
+  author    = {Yunseong Nam and Neil J. Ross and Yuan Su and Andrew M. Childs and Dmitri Maslov},
+  title     = {Automated optimization of large quantum circuits with continuous parameters},
+  doi       = {10.1038/s41534-018-0072-4},
+  number    = {1},
+  volume    = {4},
+  journal   = {npj Quantum Information},
+  month     = {5},
+  publisher = {Springer Science and Business Media {LLC}},
+  year      = {2018},
+}
+
+@Proceedings{isca2020,
+  date       = {2020},
+  title      = {{ISCA} '20: Proceedings of the 47th International Symposium on Computer Architecture},
+  eventdate  = {2020-05-30/2020-06-03},
+  eventtitle = {International Symposium on Computer Architecture},
+  location   = {New York NY, United States},
+  publisher  = {{ACM} Press},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
