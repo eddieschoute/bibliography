@@ -2217,6 +2217,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   author      = {Bochen Tan and Jason Cong},
   date        = {2020-02-22},
   title       = {Optimality Study of Existing Quantum Computing Layout Synthesis Tools},
+  pubstate    = {prepublished},
   abstract    = {Layout synthesis, an important step in quantum computing, processes quantum circuits to satisfy device layout constraints. In this paper, we construct QUEKO benchmarks for this problem, which have known optimal depth. We use QUEKO to evaluate the optimality of current layout synthesis tools, including Cirq from Google, Qiskit from IBM, $\mathsf{t}|\mathsf{ket}\rangle$ from Cambridge Quantum Computing, and recent academic work. To our surprise, despite over a decade of research and development by academia and industry on compilation and synthesis for quantum circuits, we are still able to demonstrate large optimality gaps. Even combining the best of all four solutions we evaluated, the gap is still about 4x for circuits with depths suitable for state-of-the-art devices. This suggests substantial room for improvement. Finally, we also prove the NP-completeness of the layout synthesis problem for quantum computing. We have made the QUEKO benchmarks open source.},
   eprint      = {2002.09783v2},
   eprintclass = {quant-ph},
@@ -2591,6 +2592,32 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   eventtitle = {International Symposium on Computer Architecture},
   location   = {New York NY, United States},
   publisher  = {{ACM} Press},
+}
+
+@Article{Amy2014,
+  author    = {Matthew Amy and Dmitri Maslov and Michele Mosca},
+  title     = {Polynomial-Time T-Depth Optimization of Clifford$\mathplus$T Circuits Via Matroid Partitioning},
+  doi       = {10.1109/tcad.2014.2341953},
+  number    = {10},
+  pages     = {1476--1489},
+  volume    = {33},
+  journal   = {{IEEE} Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  month     = {10},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  year      = {2014},
+}
+
+@Online{Webber2020,
+  author      = {Mark Webber and Steven Herbert and Sebastian Weidt and Winfried Hensinger},
+  date        = {2020-02-28},
+  title       = {Efficient Qubit Routing for a Globally Connected Trapped Ion Quantum Computer},
+  pubstate    = {prepublished},
+  abstract    = {The cost of enabling connectivity in Noisy-Intermediate-Scale-Quantum devices is an important factor in determining computational power. We have created a qubit routing algorithm which enables efficient global connectivity in a particular trapped ion quantum computing architecture. The routing algorithm was characterized by comparison against both a strict lower bound, and a positional swap based routing algorithm. We propose an error model which can be used to estimate the achievable circuit depth and quantum volume of the device as a function of experimental parameters. We use a new metric based on quantum volume, but with native two qubit gates, to assess the cost of connectivity relative to the upper bound of free, all to all connectivity. The metric was also used to assess a square grid superconducting device. We compare these two architectures and find that for the shuttling parameters used, the trapped ion design has a substantially lower cost associated with connectivity.},
+  eprint      = {2002.12782v1},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/2002.12782v1:PDF},
+  keywords    = {quant-ph},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
