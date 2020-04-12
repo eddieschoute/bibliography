@@ -74,6 +74,28 @@
   keywords    = {quant-ph},
 }
 
+@InProceedings{Zulehner2019,
+  author      = {Alwin Zulehner and Robert Wille},
+  title       = {Compiling {SU}(4) quantum circuits to {IBM} {QX} architectures},
+  doi         = {10.1145/3287624.3287704},
+  eprint      = {1808.05661v1},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  pages       = {185--190},
+  abstract    = {The Noisy Intermediate-Scale Quantum (NISQ) technology is currently investigated by major players in the field to build the first practically useful quantum computer. IBM QX architectures are the first ones which are already publicly available today. However, in order to use them, the respective quantum circuits have to be compiled for the respectively used target architecture. While first approaches have been proposed for this purpose, they are infeasible for a certain set of SU(4) quantum circuits which recently have been introduced to benchmark such compilers. In this work, we analyze the bottlenecks of existing compilers and provide a dedicated method for compiling these kind of circuits to IBM QX architectures. Our experimental evaluation (using tools provided by IBM) shows that the proposed approach significantly outperforms IBM's own solution regarding fidelity of the compiled circuit as well as runtime. An implementation of the proposed methodology is publicly available at http://iic.jku.at/eda/research/ibm_qx_mapping.},
+  crossref    = {aspdac2019},
+  file        = {:http\://arxiv.org/pdf/1808.05661v1:PDF},
+  keywords    = {quant-ph},
+}
+
+@InProceedings{Itoko2019,
+  author   = {Toshinari Itoko and Rudy Raymond and Takashi Imamichi and Atsushi Matsuo and Andrew W. Cross},
+  title    = {Quantum circuit compilers using gate commutation rules},
+  doi      = {10.1145/3287624.3287701},
+  pages    = {191--196},
+  crossref = {aspdac2019},
+}
+
 @Article{Ambainis2007,
   author    = {Andris Ambainis},
   title     = {Quantum Walk Algorithm for Element Distinctness},
@@ -927,28 +949,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   pages     = {345},
   doi       = {10.1145/367766.368168},
   publisher = {Association for Computing Machinery ({ACM})},
-}
-
-@InProceedings{Zulehner2019,
-  author      = {Alwin Zulehner and Robert Wille},
-  booktitle   = {ASPDAC '19: Proceedings of the 24th Asia and South Pacific Design Automation Conference},
-  date        = {2019-01},
-  title       = {Compiling {SU}(4) quantum circuits to {IBM} {QX} architectures},
-  doi         = {10.1145/3287624.3287704},
-  eprint      = {1808.05661v1},
-  eprintclass = {quant-ph},
-  eprinttype  = {arXiv},
-  eventdate   = {2019-01-21/2019-01-24},
-  eventtitle  = {ASP-DAC '19: 24th Asia and South Pacific Design Automation Conference},
-  isbn        = {978-1-4503-6007-4},
-  location    = {New York NY, United States},
-  pages       = {185--190},
-  publisher   = {{ACM} Press},
-  venue       = {Tokyo, Japan},
-  abstract    = {The Noisy Intermediate-Scale Quantum (NISQ) technology is currently investigated by major players in the field to build the first practically useful quantum computer. IBM QX architectures are the first ones which are already publicly available today. However, in order to use them, the respective quantum circuits have to be compiled for the respectively used target architecture. While first approaches have been proposed for this purpose, they are infeasible for a certain set of SU(4) quantum circuits which recently have been introduced to benchmark such compilers. In this work, we analyze the bottlenecks of existing compilers and provide a dedicated method for compiling these kind of circuits to IBM QX architectures. Our experimental evaluation (using tools provided by IBM) shows that the proposed approach significantly outperforms IBM's own solution regarding fidelity of the compiled circuit as well as runtime. An implementation of the proposed methodology is publicly available at http://iic.jku.at/eda/research/ibm_qx_mapping.},
-  file        = {:http\://arxiv.org/pdf/1808.05661v1:PDF},
-  keywords    = {quant-ph},
-  year        = {2019},
 }
 
 @Article{Zulehner2018,
@@ -2618,6 +2618,81 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   eprinttype  = {arXiv},
   file        = {:http\://arxiv.org/pdf/2002.12782v1:PDF},
   keywords    = {quant-ph},
+}
+
+@Online{Zhou2019,
+  author      = {Xiangzhen Zhou and Sanjiang Li and Yuan Feng},
+  date        = {2019-08-23},
+  title       = {Quantum Circuit Transformation Based on Simulated Annealing and Heuristic Search},
+  pubstate    = {prepublished},
+  eprint      = {1908.08853v1},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1908.08853v1:PDF},
+  keywords    = {quant-ph},
+}
+
+@Proceedings{aspdac2019,
+  date       = {2019-01},
+  title      = {{ASP-DAC} '19},
+  editor     = {Toshiyuki Shibuya},
+  eventdate  = {2019-01-21/2014-01-24},
+  eventtitle = {24th Asia and South Pacific Design Automation Conference},
+  isbn       = {978-1-4503-6007-4},
+  location   = {New York NY, United States},
+  publisher  = {{ACM} Press},
+  subtitle   = {Proceedings of the 24th Asia and South Pacific Design Automation Conference},
+  venue      = {Tokyo, Japan},
+  address    = {New York, NY, USA},
+  issn       = {2153-6961},
+}
+
+@Online{Itoko2019a,
+  author      = {Toshinari Itoko and Rudy Raymond and Takashi Imamichi and Atsushi Matsuo},
+  date        = {2019-07-05},
+  title       = {Optimization of Quantum Circuit Mapping using Gate Transformation and Commutation},
+  pubstate    = {prepublished},
+  abstract    = {This paper addresses quantum circuit mapping for Noisy Intermediate-Scale Quantum (NISQ) computers. Since NISQ computers constraint two-qubit operations on limited couplings, an input circuit must be transformed into an equivalent output circuit obeying the constraints. The transformation often requires additional gates that can affect the accuracy of running the circuit. Based upon a previous work of quantum circuit mapping that leverages gate commutation rules, this paper shows algorithms that utilize both transformation and commutation rules. Experiments on a standard benchmark dataset confirm the algorithms with more rules can find even better circuit mappings compared with the previously-known best algorithms.},
+  eprint      = {1907.02686v2},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1907.02686v2:PDF},
+  keywords    = {quant-ph, cs.DS, cs.ET},
+}
+
+@Article{Shende2006,
+  author    = {Shende, V. V. and Bullock, S. S. and Markov, I. L.},
+  title     = {Synthesis of quantum-logic circuits},
+  doi       = {10.1109/tcad.2005.855930},
+  number    = {6},
+  pages     = {1000--1010},
+  volume    = {25},
+  journal   = {{IEEE} Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  month     = {6},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  year      = {2006},
+}
+
+@Article{Saeedi2013,
+  author    = {Mehdi Saeedi and Igor L. Markov},
+  title     = {Synthesis and optimization of reversible circuits---a survey},
+  doi       = {10.1145/2431211.2431220},
+  number    = {2},
+  pages     = {1--34},
+  volume    = {45},
+  journal   = {{ACM} Computing Surveys},
+  month     = {2},
+  publisher = {Association for Computing Machinery ({ACM})},
+  year      = {2013},
+}
+
+@InProceedings{Svore2018,
+  author    = {Krysta Svore and Martin Roetteler and Alan Geller and Matthias Troyer and John Azariah and Christopher Granade and Bettina Heim and Vadym Kliuchnikov and Mariia Mykhailova and Andres Paz},
+  booktitle = {RWDSL2018: Proceedings of the Real World Domain Specific Languages Workshop 2018},
+  title     = {Q\#: Enabling Scalable Quantum Computing and Development with a High-level DSL},
+  doi       = {10.1145/3183895.3183901},
+  publisher = {{ACM} Press},
+  year      = {2018},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
