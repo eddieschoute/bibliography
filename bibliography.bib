@@ -1684,7 +1684,8 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   title       = {Spectral Graph Theory},
   url         = {http://www.math.ucsd.edu/~fan/research/revised.html},
   subtitle    = {revised and improved},
-  urldate     = {2019-06-20},
+  urldate     = {2020-10-29},
+  related     = {Chung1996},
   relatedtype = {reprintof},
 }
 
@@ -2309,14 +2310,15 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   comment     = {Connectivity of IBM devices.},
 }
 
-@Article{Sivarajah2020,
+@Unpublished{Sivarajah2020,
   author      = {Seyon Sivarajah and Silas Dilkes and Alexander Cowtan and Will Simmons and Alec Edgington and Ross Duncan},
   date        = {2020-03-24},
-  title       = {t$|$ket$\rangle$ : A Retargetable Compiler for NISQ Devices},
+  title       = {t|ket>: A Retargetable Compiler for NISQ Devices},
+  pubstate    = {prepublished},
+  abstract    = {We present t$|$ket$\rangle$, a quantum software development platform produced by Cambridge Quantum Computing Ltd. The heart of t$|$ket$\rangle$ is a language-agnostic optimising compiler designed to generate code for a variety of NISQ devices, which has several features designed to minimise the influence of device error. The compiler has been extensively benchmarked and outperforms most competitors in terms of circuit optimisation and qubit routing.},
   eprint      = {2003.10611v2},
   eprintclass = {quant-ph},
   eprinttype  = {arXiv},
-  abstract    = {We present t$|$ket$\rangle$, a quantum software development platform produced by Cambridge Quantum Computing Ltd. The heart of t$|$ket$\rangle$ is a language-agnostic optimising compiler designed to generate code for a variety of NISQ devices, which has several features designed to minimise the influence of device error. The compiler has been extensively benchmarked and outperforms most competitors in terms of circuit optimisation and qubit routing.},
   file        = {:http\://arxiv.org/pdf/2003.10611v2:PDF},
   keywords    = {quant-ph},
 }
@@ -2347,17 +2349,20 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   publisher    = {{IOP} Publishing},
 }
 
-@Online{Kissinger2019a,
-  author      = {Aleks Kissinger and Arianne Meijer-van de Griend},
-  date        = {2019-04-01},
-  title       = {CNOT circuit extraction for topologically-constrained quantum memories},
-  pubstate    = {prepublished},
-  abstract    = {Many physical implementations of quantum computers impose stringent memory constraints in which 2-qubit operations can only be performed between qubits which are nearest neighbours in a lattice or graph structure. Hence, before a computation can be run on such a device, it must be mapped onto the physical architecture. That is, logical qubits must be assigned physical locations in the quantum memory, and the circuit must be replaced by an equivalent one containing only operations between nearest neighbours. In this paper, we give a new technique for quantum circuit mapping (a.k.a. routing), based on Gaussian elimination constrained to certain optimal spanning trees called Steiner trees. We give a reference implementation of the technique for CNOT circuits and show that it significantly out-performs general-purpose routines on CNOT circuits. We then comment on how the technique can be extended straightforwardly to the synthesis of CNOT+Rz circuits and as a modification to a recently-proposed circuit simplification/extraction procedure for generic circuits based on the ZX-calculus.},
-  eprint      = {1904.00633v2},
-  eprintclass = {quant-ph},
-  eprinttype  = {arXiv},
-  file        = {:http\://arxiv.org/pdf/1904.00633v2:PDF},
-  keywords    = {steiner trees},
+@Article{Kissinger2020,
+  author       = {Aleks Kissinger and Arianne Meijer-van de Griend},
+  date         = {2020-06-01},
+  journaltitle = {Quantum Information \& Computation},
+  title        = {CNOT circuit extraction for topologically-constrained quantum memories},
+  eprint       = {1904.00633v2},
+  eprintclass  = {quant-ph},
+  eprinttype   = {arXiv},
+  number       = {7{\&}8},
+  pages        = {581--596},
+  volume       = {20},
+  abstract     = {Many physical implementations of quantum computers impose stringent memory constraints in which 2-qubit operations can only be performed between qubits which are nearest neighbours in a lattice or graph structure. Hence, before a computation can be run on such a device, it must be mapped onto the physical architecture. That is, logical qubits must be assigned physical locations in the quantum memory, and the circuit must be replaced by an equivalent one containing only operations between nearest neighbours. In this paper, we give a new technique for quantum circuit mapping (a.k.a. routing), based on Gaussian elimination constrained to certain optimal spanning trees called Steiner trees. We give a reference implementation of the technique for CNOT circuits and show that it significantly out-performs general-purpose routines on CNOT circuits. We then comment on how the technique can be extended straightforwardly to the synthesis of CNOT+Rz circuits and as a modification to a recently-proposed circuit simplification/extraction procedure for generic circuits based on the ZX-calculus.},
+  file         = {:http\://arxiv.org/pdf/1904.00633v2:PDF},
+  keywords     = {steiner trees},
 }
 
 @Online{Jeandel2019,
@@ -2902,6 +2907,23 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   month     = {jan},
   publisher = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
   year      = {2020},
+}
+
+@Unpublished{King2020,
+  author   = {King, Sam and Shashtri, Hrishee and Bapat, Aniruddha and Childs, Andrew and Gorshkov, Alexey and Schoute, Eddie},
+  title    = {Qubit Routing with Fast Reversals},
+  pubstate = {inpreparation},
+}
+
+@Unpublished{Kliuchnikov2020,
+  author   = {Kliuchnikov, Vadym and Schoute, Eddie and co-authors},
+  pubstate = {inpreparation},
+}
+
+@Unpublished{Bapat2020a,
+  author   = {Bapat, Aniruddha and Childs, Andrew and Gorshkov, Alexey and Schoute, Eddie},
+  title    = {Quantum Qubit Routing},
+  pubstate = {inpreparation},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
