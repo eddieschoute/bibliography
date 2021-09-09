@@ -1468,16 +1468,16 @@ We also show limits on this approach to quantum SDP-solvers, for instance for co
 @Article{Childs2004,
   author    = {Childs, A. M. and Leung, D. W. and Vidal, G.},
   title     = {Reversible Simulation of Bipartite Product Hamiltonians},
-  journal   = {{IEEE} Transactions on Information Theory},
-  year      = {2004},
-  volume    = {50},
-  number    = {6},
-  month     = jun,
-  pages     = {1189--1197},
   doi       = {10.1109/tit.2004.828069},
+  number    = {6},
+  pages     = {1189--1197},
+  volume    = {50},
   file      = {:Childs2004 - Reversible Simulation of Bipartite Product Hamiltonians.pdf:PDF},
-  keywords  = {hamiltonian,entanglement capacity},
+  journal   = {{IEEE} Transactions on Information Theory},
+  keywords  = {hamiltonian, entanglement capacity},
+  month     = jun,
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  year      = {2004},
 }
 
 @InProceedings{Childs2019,
@@ -2441,7 +2441,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   pages     = {505--510},
   volume    = {574},
   journal   = {Nature},
-  keywords  = {google,quantum supremacy},
+  keywords  = {google, quantum supremacy},
   month     = {10},
   publisher = {Springer Science and Business Media {LLC}},
   year      = {2019},
@@ -2909,16 +2909,20 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   year      = {2020},
 }
 
-@Online{Bapat2021,
-  author      = {Aniruddha Bapat and Andrew M. Childs and Alexey V. Gorshkov and Samuel King and Eddie Schoute and Hrishee Shastri},
-  date        = {2021-03-04},
-  title       = {Quantum routing with fast reversals},
-  abstract    = {We present methods for implementing arbitrary permutations of qubits under interaction constraints. Our protocols make use of previous methods for rapidly reversing the order of qubits along a path. Given nearest-neighbor interactions on a path of length $n$, we show that there exists a constant $\epsilon \approx 0.034$ such that the quantum routing time is at most $(1-\epsilon)n$, whereas any swap-based protocol needs at least time $n-1$. This represents the first known quantum advantage over swap-based routing methods and also gives improved quantum routing times for realistic architectures such as grids. Furthermore, we show that our algorithm approaches a quantum routing time of $2n/3$ in expectation for uniformly random permutations, whereas swap-based protocols require time $n$ asymptotically. Additionally, we consider sparse permutations that route $k \le n$ qubits and give algorithms with quantum routing time at most $n/3 + O(k^2)$ on paths and at most $2r/3 + O(k^2)$ on general graphs with radius $r$.},
-  eprint      = {2103.03264},
-  eprintclass = {quant-ph},
-  eprinttype  = {arXiv},
-  file        = {:http\://arxiv.org/pdf/2103.03264v1:PDF},
-  keywords    = {quant-ph, cs.DS},
+@Article{Bapat2021,
+  author       = {Aniruddha Bapat and Andrew M. Childs and Alexey V. Gorshkov and Samuel King and Eddie Schoute and Hrishee Shastri},
+  date         = {2021-08},
+  journaltitle = {Quantum},
+  title        = {Quantum routing with fast reversals},
+  doi          = {10.22331/q-2021-08-31-533},
+  eprint       = {2103.03264v2},
+  eprintclass  = {quant-ph},
+  eprinttype   = {arXiv},
+  pages        = {533},
+  volume       = {5},
+  abstract     = {We present methods for implementing arbitrary permutations of qubits under interaction constraints. Our protocols make use of previous methods for rapidly reversing the order of qubits along a path. Given nearest-neighbor interactions on a path of length $n$, we show that there exists a constant $\epsilon \approx 0.034$ such that the quantum routing time is at most $(1-\epsilon)n$, whereas any swap-based protocol needs at least time $n-1$. This represents the first known quantum advantage over swap-based routing methods and also gives improved quantum routing times for realistic architectures such as grids. Furthermore, we show that our algorithm approaches a quantum routing time of $2n/3$ in expectation for uniformly random permutations, whereas swap-based protocols require time $n$ asymptotically. Additionally, we consider sparse permutations that route $k \le n$ qubits and give algorithms with quantum routing time at most $n/3 + O(k^2)$ on paths and at most $2r/3 + O(k^2)$ on general graphs with radius $r$.},
+  keywords     = {quant-ph, cs.DS},
+  publisher    = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
 }
 
 @Unpublished{Kliuchnikov2020,
@@ -3010,6 +3014,13 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   doi       = {10.1145/195058.195119},
   publisher = {{ACM} Press},
   file      = {:Raghavan1994 - Efficient Routing in All Optical Networks.pdf:PDF},
+}
+
+@Unpublished{Beverland2021,
+  author   = {Michael Beverland and Vadym Kliuchnikov and Eddie Schoute},
+  date     = {2021},
+  title    = {Surface code compilation with EDPCE},
+  pubstate = {inpreparation},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
