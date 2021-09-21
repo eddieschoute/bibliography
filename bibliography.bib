@@ -95,6 +95,16 @@
   crossref = {aspdac2019},
 }
 
+@InBook{Kleinberg2006:Approximation,
+  chapter  = {11},
+  crossref = {Kleinberg2006},
+}
+
+@InBook{Kleinberg2006:NetworkFlow,
+  chapter  = {7},
+  crossref = {Kleinberg2006},
+}
+
 @Article{Ambainis2007,
   author    = {Andris Ambainis},
   title     = {Quantum Walk Algorithm for Element Distinctness},
@@ -2780,16 +2790,15 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Article{Litinski2019,
-  author    = {Daniel Litinski},
-  title     = {A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery},
-  doi       = {10.22331/q-2019-03-05-128},
-  pages     = {128},
-  volume    = {3},
-  file      = {:Litinski2019 - A Game of Surface Codes_ Large Scale Quantum Computing with Lattice Surgery.PDF:PDF},
-  journal   = {Quantum},
-  month     = {mar},
-  publisher = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
-  year      = {2019},
+  author       = {Daniel Litinski},
+  date         = {2019-03},
+  journaltitle = {Quantum},
+  title        = {A Game of Surface Codes: Large-Scale Quantum Computing with Lattice Surgery},
+  doi          = {10.22331/q-2019-03-05-128},
+  pages        = {128},
+  volume       = {3},
+  file         = {:Litinski2019 - A Game of Surface Codes_ Large Scale Quantum Computing with Lattice Surgery.PDF:PDF},
+  publisher    = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
 }
 
 @Book{Nielsen2010,
@@ -2827,18 +2836,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   abstract    = {Graph states form a rich class of entangled states that exhibit important aspects of multi-partite entanglement. At the same time, they can be described by a number of parameters that grows only moderately with the system size. They have a variety of applications in quantum information theory, most prominently as algorithmic resources in the context of the one-way quantum computer, but also in other fields such as quantum error correction and multi-partite quantum communication, as well as in the study of foundational issues such as non-locality and decoherence. In this review, we give a tutorial introduction into the theory of graph states. We introduce various equivalent ways how to define graph states, and discuss the basic notions and properties of these states. The focus of this review is on their entanglement properties. These include aspects of non-locality, bi-partite and multi-partite entanglement and its classification in terms of the Schmidt measure, the distillability properties of mixed entangled states close to a pure graph state, as well as the robustness of their entanglement under decoherence. We review some of the known applications of graph states, as well as proposals for their experimental implementation.},
   file        = {:http\://arxiv.org/pdf/quant-ph/0602096v1:PDF;:Hein2006 - Entanglement in Graph States and Its Applications.pdf:PDF},
   keywords    = {quant-ph, cond-mat.other},
-}
-
-@Article{Beaudrap2019,
-  author      = {Niel de Beaudrap and Steven Herbert},
-  date        = {2019-10-08},
-  title       = {Quantum linear network coding for entanglement distribution in restricted architectures},
-  eprint      = {1910.03315v2},
-  eprintclass = {quant-ph},
-  eprinttype  = {arXiv},
-  abstract    = {In this paper we propose a technique for distributing entanglement in architectures in which interactions between pairs of qubits are constrained to a fixed network $G$. This allows for two-qubit operations to be performed between qubits which are remote from each other in $G$, through gate teleportation. We demonstrate how adapting \emph{quantum linear network coding} to this problem of entanglement distribution in a network of qubits can be used to solve the problem of distributing Bell states and GHZ states in parallel, when bottlenecks in $G$ would otherwise force such entangled states to be distributed sequentially. In particular, we show that by reduction to classical network coding protocols for the $k$-pairs problem or multiple multicast problem in a fixed network $G$, one can distribute entanglement between the transmitters and receivers with a Clifford circuit whose quantum depth is some (typically small and easily computed) constant, which does not depend on the size of $G$, however remote the transmitters and receivers are, or the number of transmitters and receivers. These results also generalise straightforwardly to qudits of any prime dimension. We demonstrate our results using a specialised formalism, distinct from and more efficient than the stabiliser formalism, which is likely to be helpful to reason about and prototype such quantum linear network coding circuits.},
-  file        = {:http\://arxiv.org/pdf/1910.03315v2:PDF;:Beaudrap2019 - Quantum Linear Network Coding for Entanglement Distribution in Restricted Architectures.pdf:PDF},
-  keywords    = {quant-ph},
 }
 
 @PhdThesis{Kleinberg1996,
@@ -3579,6 +3576,463 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   doi    = {10.5281/zenodo.2573505},
   type   = {software},
   label  = {Qis},
+}
+
+@Article{Chamberland2020b,
+  author       = {Chamberland, Christopher and Zhu, Guanyu and Yoder, Theodore J. and Hertzberg, Jared B. and Cross, Andrew W.},
+  date         = {2020},
+  journaltitle = {Physical Review X},
+  title        = {Topological and Subsystem Codes on Low-Degree Graphs with Flag Qubits},
+  doi          = {10.1103/PhysRevX.10.011022},
+  url          = {http://arxiv.org/abs/1907.09528 http://dx.doi.org/10.1103/PhysRevX.10.011022},
+  volume       = {10},
+  publisher    = {American Physical Society},
+}
+
+@Article{Chamberland2020,
+  author       = {Chamberland, Christopher and Kubica, Aleksander and Yoder, Theodore J. and Zhu, Guanyu},
+  date         = {2020},
+  journaltitle = {New Journal of Physics},
+  title        = {Triangular color codes on trivalent graphs with flag qubits},
+  doi          = {10.1088/1367-2630/ab68fd},
+  url          = {http://arxiv.org/abs/1911.00355 http://dx.doi.org/10.1088/1367-2630/ab68fd},
+  volume       = {22},
+  publisher    = {Institute of Physics Publishing},
+}
+
+@Unpublished{Chamberland2021,
+  author      = {Christopher Chamberland and Earl T. Campbell},
+  date        = {2021},
+  title       = {Universal quantum computing with twist-free and temporally encoded lattice surgery},
+  eprint      = {2109.02746},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+}
+
+@Article{Wang2011,
+  author       = {David S. Wang and Austin G. Fowler and Lloyd C. L. Hollenberg},
+  date         = {2011-02},
+  journaltitle = {Physical Review A},
+  title        = {Surface code quantum computing with error rates over 1{\%}},
+  doi          = {10.1103/physreva.83.020302},
+  number       = {2},
+  pages        = {020302},
+  volume       = {83},
+  numpages     = {4},
+  publisher    = {American Physical Society ({APS})},
+}
+
+@Article{Bravyi2005,
+  author       = {Sergey Bravyi and Alexei Kitaev},
+  date         = {2005-02},
+  journaltitle = {Physical Review A},
+  title        = {Universal quantum computation with ideal Clifford gates and noisy ancillas},
+  doi          = {10.1103/physreva.71.022316},
+  number       = {2},
+  volume       = {71},
+  publisher    = {American Physical Society ({APS})},
+}
+
+@Article{Chao2020,
+  author       = {Chao, Rui and Beverland, Michael E. and Delfosse, Nicolas and Haah, Jeongwan},
+  title        = {Optimization of the surface code design for Majorana-based qubits},
+  issn         = {2521-327X},
+  pages        = {352},
+  volume       = {4},
+  date         = {2020-10},
+  doi          = {10.22331/q-2020-10-28-352},
+  journaltitle = {Quantum},
+  publisher    = {{Verein zur F{\"{o}}rderung des Open Access Publizierens in den Quantenwissenschaften}},
+}
+
+@Article{YoderIBM2017,
+  author       = {Yoder, Theodore J. and Kim, Isaac H.},
+  date         = {2017-04},
+  journaltitle = {Quantum},
+  title        = {The surface code with a twist},
+  doi          = {10.22331/q-2017-04-25-2},
+  issn         = {2521-327X},
+  pages        = {2},
+  volume       = {1},
+  publisher    = {{Verein zur F{\"{o}}rderung des Open Access Publizierens in den Quantenwissenschaften}},
+}
+
+@Report{Fruchtman2016,
+  author      = {Amir Fruchtman and Iris Choi},
+  date        = {2016-09},
+  institution = {University of Oxford},
+  title       = {Technical Roadmap for Fault-Toleran Quantum Computing},
+  type        = {resreport},
+  url         = {https://nqit.ox.ac.uk/content/technical-roadmap-fault-tolerant-quantum-computing.html},
+  urldate     = {2021-09-15},
+}
+
+@Article{Litinski2017,
+  author       = {Daniel Litinski and Felix von Oppen},
+  date         = {2017-11},
+  journaltitle = {Physical Review B},
+  title        = {Braiding by Majorana tracking and long-range {CNOT} gates with color codes},
+  doi          = {10.1103/physrevb.96.205413},
+  number       = {20},
+  volume       = {96},
+  publisher    = {American Physical Society ({APS})},
+}
+
+@InProceedings{JavadiAbhari2017,
+  author    = {Ali Javadi-Abhari and Pranav Gokhale and Adam Holmes and Diana Franklin and Kenneth R. Brown and Margaret Martonosi and Frederic T. Chong},
+  booktitle = {Proceedings of the 50th Annual {IEEE}/{ACM} International Symposium on Microarchitecture},
+  date      = {2017-10},
+  title     = {Optimized surface code communication in superconducting quantum computers},
+  doi       = {10.1145/3123939.3123949},
+  publisher = {{ACM}},
+}
+
+@InProceedings{Kleinberg1995,
+  author    = {J. Kleinberg and E. Tardos},
+  booktitle = {Proceedings of {IEEE} 36th Annual Foundations of Computer Science},
+  date      = {1995},
+  title     = {Disjoint paths in densely embedded graphs},
+  doi       = {10.1109/sfcs.1995.492462},
+  publisher = {{IEEE} Comput. Soc. Press},
+}
+
+@Book{Kleinberg2006,
+  author    = {Kleinberg, Jon and Tardos, \'{E}va},
+  date      = {2006},
+  title     = {Algorithm Design},
+  edition   = {1},
+  isbn      = {0321295358},
+  location  = {Boston},
+  publisher = {Pearson/Addison-Wesley},
+}
+
+@Article{Ford1956,
+  author       = {L. R. Ford and D. R. Fulkerson},
+  date         = {1956},
+  journaltitle = {Canadian Journal of Mathematics},
+  title        = {Maximal Flow Through a Network},
+  doi          = {10.4153/cjm-1956-045-5},
+  pages        = {399--404},
+  volume       = {8},
+  publisher    = {Canadian Mathematical Society},
+}
+
+@Article{Beaudrap2020a,
+  author       = {Niel de Beaudrap and Steven Herbert},
+  date         = {2020-11},
+  journaltitle = {Quantum},
+  title        = {Quantum linear network coding for entanglement distribution in restricted architectures},
+  doi          = {10.22331/q-2020-11-01-356},
+  eprint       = {1910.03315v3},
+  eprintclass  = {quant-ph},
+  eprinttype   = {arXiv},
+  pages        = {356},
+  volume       = {4},
+  abstract     = {In this paper we propose a technique for distributing entanglement in architectures in which interactions between pairs of qubits are constrained to a fixed network $G$. This allows for two-qubit operations to be performed between qubits which are remote from each other in $G$, through gate teleportation. We demonstrate how adapting \emph{quantum linear network coding} to this problem of entanglement distribution in a network of qubits can be used to solve the problem of distributing Bell states and GHZ states in parallel, when bottlenecks in $G$ would otherwise force such entangled states to be distributed sequentially. In particular, we show that by reduction to classical network coding protocols for the $k$-pairs problem or multiple multicast problem in a fixed network $G$, one can distribute entanglement between the transmitters and receivers with a Clifford circuit whose quantum depth is some (typically small and easily computed) constant, which does not depend on the size of $G$, however remote the transmitters and receivers are, or the number of transmitters and receivers. These results also generalise straightforwardly to qudits of any prime dimension. We demonstrate our results using a specialised formalism, distinct from and more efficient than the stabiliser formalism, which is likely to be helpful to reason about and prototype such quantum linear network coding circuits.},
+  file         = {:http\://arxiv.org/pdf/1910.03315v2:PDF},
+  keywords     = {quant-ph},
+  publisher    = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
+}
+
+@InBook{Bombin2013,
+  author      = {H. Bombin},
+  booktitle   = {Quantum Error Correction},
+  date        = {2013-11-01},
+  title       = {Topological Codes},
+  editor      = {Daniel A. Lidar and Todd A. Brun},
+  eprint      = {1311.0277},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  isbn        = {9780521897877},
+  location    = {Cambridge},
+  publisher   = {Cambridge University Press},
+  abstract    = {This is the chapter \emph{Topological Codes} of the book \emph{Quantum Error Correction}, edited by Daniel A. Lidar and Todd A. Brun, Cambridge University Press, New York, 2013. http://www.cambridge.org/us/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-error-correction},
+  ean         = {9780521897877},
+  file        = {:http\://arxiv.org/pdf/1311.0277v1:PDF},
+  keywords    = {quant-ph},
+  pagetotal   = {690},
+}
+
+@Article{Brown2017,
+  author       = {Benjamin J. Brown and Katharina Laubscher and Markus S. Kesselring and James R. Wootton},
+  date         = {2017-05},
+  journaltitle = {Physical Review X},
+  title        = {Poking Holes and Cutting Corners to Achieve Clifford Gates with the Surface Code},
+  doi          = {10.1103/physrevx.7.021029},
+  number       = {2},
+  pages        = {021029},
+  volume       = {7},
+  publisher    = {American Physical Society ({APS})},
+}
+
+@Article{Knill2005,
+  author       = {E. Knill},
+  date         = {2005-03},
+  journaltitle = {Nature},
+  title        = {Quantum computing with realistically noisy devices},
+  doi          = {10.1038/nature03350},
+  number       = {7029},
+  pages        = {39--44},
+  volume       = {434},
+  publisher    = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Zilberberg2008,
+  author       = {Oded Zilberberg and Bernd Braunecker and Daniel Loss},
+  date         = {2008-01},
+  journaltitle = {Physical Review A},
+  title        = {Controlled-{NOT} gate for multiparticle qubits and topological quantum computation based on parity measurements},
+  doi          = {10.1103/physreva.77.012327},
+  number       = {1},
+  pages        = {012327},
+  volume       = {77},
+  publisher    = {American Physical Society ({APS})},
+}
+
+@InProceedings{Chuzhoy2018,
+  author    = {Julia Chuzhoy and David H. K. Kim and Rachit Nimavat},
+  booktitle = {Proceedings of the 50th Annual {ACM} {SIGACT} Symposium on Theory of Computing - {STOC} 2018},
+  date      = {2018},
+  title     = {Almost polynomial hardness of node-disjoint paths in grids},
+  doi       = {10.1145/3188745.3188772},
+  publisher = {{ACM} Press},
+}
+
+@InProceedings{Chuzhoy2015,
+  author     = {Julia Chuzhoy and David H. K. Kim},
+  booktitle  = {Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (APPROX/RANDOM 2015)},
+  date       = {2015},
+  title      = {{On Approximating Node-Disjoint Paths in Grids}},
+  doi        = {10.4230/LIPIcs.APPROX-RANDOM.2015.187},
+  editor     = {Naveen Garg and Klaus Jansen and Anup Rao and Jos{\'e} D. P. Rolim},
+  isbn       = {978-3-939897-89-7},
+  location   = {Dagstuhl, Germany},
+  pages      = {187--211},
+  publisher  = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+  series     = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  volume     = {40},
+  annotation = {Keywords: Node-disjoint paths, approximation algorithms, routing and layout},
+  issn       = {1868-8969},
+  urn        = {urn:nbn:de:0030-drops-53032},
+}
+
+@Article{Chekuri2006,
+  author       = {Chandra Chekuri and Sanjeev Khanna and F. Bruce Shepherd},
+  date         = {2006},
+  journaltitle = {Theory of Computing},
+  title        = {An $O(\sqrt n)$ Approximation and Integrality Gap for Disjoint Paths and Unsplittable Flow},
+  doi          = {10.4086/toc.2006.v002a007},
+  number       = {1},
+  pages        = {137--146},
+  volume       = {2},
+  publisher    = {Theory of Computing Exchange},
+}
+
+@InProceedings{Aumann1995,
+  author    = {Aumann, Yonatan and Rabani, Yuval},
+  booktitle = {Proceedings of the Sixth Annual ACM-SIAM Symposium on Discrete Algorithms},
+  date      = {1995},
+  title     = {Improved Bounds for All Optical Routing},
+  isbn      = {0898713498},
+  location  = {3600 University City Science Center, Philadelphia, PA, United States},
+  pages     = {567–576},
+  publisher = {Society for Industrial and Applied Mathematics},
+  series    = {SODA ’95},
+  numpages  = {10},
+}
+
+@Article{Kolliopoulos2004,
+  author       = {Stavros G. Kolliopoulos and Clifford Stein},
+  date         = {2004-01},
+  journaltitle = {Mathematical Programming},
+  title        = {Approximating disjoint-path problems using packing integer programs},
+  doi          = {10.1007/s10107-002-0370-6},
+  number       = {1},
+  pages        = {63--87},
+  volume       = {99},
+  publisher    = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Chvatal1979,
+  author       = {V. Chv\'{a}tal},
+  date         = {1979-08},
+  journaltitle = {Mathematics of Operations Research},
+  title        = {A Greedy Heuristic for the Set-Covering Problem},
+  doi          = {10.1287/moor.4.3.233},
+  number       = {3},
+  pages        = {233--235},
+  volume       = {4},
+  publisher    = {Institute for Operations Research and the Management Sciences ({INFORMS})},
+}
+
+@Article{Johnson1974,
+  author       = {David S. Johnson},
+  date         = {1974-12},
+  journaltitle = {Journal of Computer and System Sciences},
+  title        = {Approximation algorithms for combinatorial problems},
+  doi          = {10.1016/s0022-0000(74)80044-9},
+  number       = {3},
+  pages        = {256--278},
+  volume       = {9},
+  publisher    = {Elsevier {BV}},
+}
+
+@Article{Lovasz1975,
+  author       = {L. Lov{\'{a}}sz},
+  date         = {1975},
+  journaltitle = {Discrete Mathematics},
+  title        = {On the ratio of optimal integral and fractional covers},
+  doi          = {10.1016/0012-365x(75)90058-8},
+  number       = {4},
+  pages        = {383--390},
+  volume       = {13},
+  publisher    = {Elsevier {BV}},
+}
+
+@Article{RossSelinger2014,
+  author       = {Ross, Neil J. and Selinger, Peter},
+  date         = {2016-09},
+  journaltitle = {Quantum Information and Computation},
+  title        = {Optimal ancilla-free Clifford+T approximation of z-rotations},
+  doi          = {10.26421/QIC16.11-12-1},
+  eprint       = {1403.2975},
+  eprinttype   = {arXiv},
+  number       = {11{\&}12},
+  pages        = {901--953},
+  volume       = {16},
+  arxivid      = {1403.2975},
+  journal      = {Quantum Information {\&} Computation},
+  publisher    = {Rinton Press},
+}
+
+@InCollection{Kobayashi2009,
+  author    = {Hirotada Kobayashi and Fran{\c{c}}ois Le Gall and Harumichi Nishimura and Martin Rötteler},
+  booktitle = {Automata, Languages and Programming},
+  date      = {2009},
+  title     = {General Scheme for Perfect Quantum Network Coding with Free Classical Communication},
+  doi       = {10.1007/978-3-642-02927-1_52},
+  pages     = {622--633},
+  publisher = {Springer Berlin Heidelberg},
+}
+
+@InProceedings{Kobayashi2011,
+  author    = {Hirotada Kobayashi and Fran{\c{c}}ois Le Gall and Harumichi Nishimura and Martin Rötteler},
+  booktitle = {2011 {IEEE} International Symposium on Information Theory Proceedings},
+  date      = {2011-07},
+  title     = {Constructing quantum network coding schemes from classical nonlinear protocols},
+  doi       = {10.1109/isit.2011.6033701},
+  publisher = {{IEEE}},
+}
+
+@Article{Ahlswede2000,
+  author       = {Ahlswede, Rudolf and Cai, Ning and Li, Shuo-Yen Robert and Yeung, Raymond W.},
+  date         = {2000-07},
+  journaltitle = {{IEEE} Transactions on Information Theory},
+  title        = {Network information flow},
+  doi          = {10.1109/18.850663},
+  number       = {4},
+  pages        = {1204--1216},
+  volume       = {46},
+  publisher    = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{Leung2010,
+  author       = {Debbie Leung and Jonathan Oppenheim and Andreas Winter},
+  date         = {2010-07},
+  journaltitle = {{IEEE} Transactions on Information Theory},
+  title        = {Quantum Network Communication{\textemdash}The Butterfly and Beyond},
+  doi          = {10.1109/tit.2010.2048442},
+  number       = {7},
+  pages        = {3478--3490},
+  volume       = {56},
+  publisher    = {Institute of Electrical and Electronics Engineers ({IEEE})},
+}
+
+@Article{Satoh2012,
+  author       = {Takahiko Satoh and Fran{\c{c}}ois Le Gall and Hiroshi Imai},
+  date         = {2012-09},
+  journaltitle = {Physical Review A},
+  title        = {Quantum network coding for quantum repeaters},
+  doi          = {10.1103/physreva.86.032331},
+  number       = {3},
+  volume       = {86},
+  publisher    = {American Physical Society},
+}
+
+@InProceedings{Lehman2004,
+  author    = {Lehman, April Rasala and Lehman, Eric},
+  booktitle = {Proceedings of the Fifteenth Annual ACM-SIAM Symposium on Discrete Algorithms},
+  date      = {2004},
+  title     = {Complexity Classification of Network Information Flow Problems},
+  isbn      = {089871558X},
+  location  = {New Orleans, Louisiana},
+  pages     = {142–150},
+  publisher = {Society for Industrial and Applied Mathematics},
+  series    = {SODA '04},
+  abstract  = {We address the network information flow problem, in which messages available to a
+set of sources must be passed through a network to a set of sinks with specified demands.
+This differs from traditional multicommodity flow, because information can be duplicated
+and encoded. Previous work has focused on the special case of multicasting using linear
+coding. In this paper, we explore the applicability of network coding to a breadth
+of problems and consider the greater potential of nonlinear coding techniques. Our
+main contribution is a taxonomy of network information flow problems. We establish
+a three-way partition consisting of problems solvable without resorting to network
+coding, problems requiring network coding that are polynomial-time solvable, and problems
+for which obtaining a linear network coding solution is NP-hard. We also demonstrate
+limitations of linear coding: for multicasting, nonlinear codes may employ a smaller
+alphabet than any linear code and, more generally, there exist solvable information
+flow problems that do not admit a linear solution.},
+  address   = {USA},
+  numpages  = {9},
+}
+
+@Article{Li2009,
+  author       = {Zongpeng Li and Baochun Li and Lap Chi Lau},
+  date         = {2009-03},
+  journaltitle = {{IEEE} Transactions on Information Theory},
+  title        = {A Constant Bound on Throughput Improvement of Multicast Network Coding in Undirected Networks},
+  doi          = {10.1109/tit.2008.2011516},
+  number       = {3},
+  pages        = {1016--1026},
+  volume       = {55},
+  publisher    = {Institute of Electrical and Electronics Engineers},
+}
+
+@Online{Gidney2019,
+  author      = {Craig Gidney and Austin G. Fowler},
+  date        = {2019-05-22},
+  title       = {Flexible layout of surface code computations using AutoCCZ states},
+  abstract    = {We construct a self-correcting CCZ state (the "AutoCCZ") with embedded delayed choice CZs for completing gate teleportations. Using the AutoCCZ state we create efficient surface code spacetime layouts for both a depth-limited circuit (a ripply-carry addition) and a Clifford-limited circuit (a QROM read). Our layouts account for distillation and routing, are based on plausible physical assumptions for a large-scale superconducting qubit platform, and suggest that circuit-level Toffoli parallelism (e.g. using a carry-lookahead adder instead of a ripple-carry adder) will not reduce the execution time of computations involving fewer than five million physical qubits. We reduce the spacetime volume of delayed choice CZs by a factor of 4 compared to techniques from previous work (Fowler 2012), and make several improvements to the CCZ magic state factory from (Gidney 2019).},
+  eprint      = {1905.08916},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/1905.08916v1:PDF},
+  keywords    = {quant-ph},
+}
+
+@Unpublished{Knill2004,
+  author      = {E. Knill},
+  date        = {2004-02},
+  title       = {Fault-Tolerant Postselected Quantum Computation: Schemes},
+  abstract    = {Postselected quantum computation is distinguished from regular quantum computation by accepting the output only if measurement outcomes satisfy predetermined conditions. The output must be accepted with nonzero probability. Methods for implementing postselected quantum computation with noisy gates are proposed. These methods are based on error-detecting codes. Conditionally on detecting no errors, it is expected that the encoded computation can be made to be arbitrarily accurate. Although the probability of success of the encoded computation decreases dramatically with accuracy, it is possible to apply the proposed methods to the problem of preparing arbitrary stabilizer states in large error-correcting codes with local residual errors. Together with teleported error-correction, this may improve the error tolerance of non-postselected quantum computation.},
+  eprint      = {quant-ph/0402171},
+  eprintclass = {quant-ph},
+  eprinttype  = {arXiv},
+  file        = {:http\://arxiv.org/pdf/quant-ph/0402171v1:PDF},
+  keywords    = {quant-ph},
+}
+
+@Article{Jones2013,
+  author       = {Cody Jones},
+  date         = {2013-02},
+  journaltitle = {Physical Review A},
+  title        = {Low-overhead constructions for the fault-tolerant Toffoli gate},
+  doi          = {10.1103/physreva.87.022328},
+  number       = {2},
+  pages        = {022328},
+  volume       = {87},
+  comment      = {toffoli multi-controlled-x uncomputation},
+  publisher    = {American Physical Society ({APS})},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
