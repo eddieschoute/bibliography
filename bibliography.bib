@@ -133,18 +133,16 @@
 
 @InProceedings{Berry2014,
   author        = {Berry, Dominic W. and Childs, Andrew M. and Cleve, Richard and Kothari, Robin and Somma, Rolando D.},
-  title         = {Exponential Improvement in Precision for Simulating Sparse Hamiltonians},
   booktitle     = {Proceedings of the Forty-sixth Annual ACM Symposium on Theory of Computing},
-  year          = {2014},
-  series        = {STOC '14},
-  publisher     = {ACM},
-  location      = {New York, New York},
-  isbn          = {978-1-4503-2710-7},
-  pages         = {283--292},
+  title         = {Exponential Improvement in Precision for Simulating Sparse Hamiltonians},
   doi           = {10.1145/2591796.2591854},
   eprint        = {1312.1414},
+  isbn          = {978-1-4503-2710-7},
+  location      = {New York, New York},
+  pages         = {283--292},
+  publisher     = {ACM},
+  series        = {STOC '14},
   url           = {http://doi.acm.org/10.1145/2591796.2591854},
-  abstract      = {We provide a quantum algorithm for simulating the dynamics of sparse Hamiltonians with complexity sublogarithmic in the inverse error, an exponential improvement over previous methods. Specifically, we show that a d-sparse Hamiltonian H on n qubits can be simulated for time t with precision ε using O(τlog(τ/ε)/log log(τ/ε)) queries and O(τnlog2(τ/ε)/log log(τ/ε)) additional 2-qubit gates, where τ=d2||H||maxt. Unlike previous approaches based on product formulas, the query complexity is independent of the number of qubits acted on, and for time-varying Hamiltonians, the gate complexity is logarithmic in the norm of the derivative of the Hamiltonian. Our algorithm is based on a significantly improved simulation of the continuous- and fractional-query models using discrete quantum queries, showing that the former models are not much more powerful than the discrete model even for very small error. We also significantly simplify the analysis of this conversion, avoiding the need for a complex fault correction procedure. Our simplification relies on a new form of "oblivious amplitude amplification" that can be applied even though the reflection about the input state is unavailable. Finally, we prove new lower bounds showing that our algorithms are optimal as a function of the error.},
   acmid         = {2591854},
   address       = {New York, NY, USA},
   archiveprefix = {arXiv},
@@ -152,6 +150,7 @@
   keywords      = {Hamiltonian simulation, quantum algorithms, Quantum Physics},
   numpages      = {10},
   primaryclass  = {quant-ph},
+  year          = {2014},
 }
 
 @Article{Harrow2009,
@@ -176,16 +175,15 @@
 @Online{Dunjko2017,
   author        = {{Dunjko}, V. and {Briegel}, H.~J.},
   title         = {{Machine learning \& artificial intelligence in the quantum domain}},
-  year          = {2017},
-  month         = sep,
-  abstract      = {Quantum information technologies, on the one side, and intelligent learning systems, on the other, are both emergent technologies that will likely have a transforming impact on our society in the future. The respective underlying fields of basic research – quantum information (QI) versus machine learning and artificial intelligence (AI) – have their own specific questions and challenges, which have hitherto been investigated largely independently. However, in a growing body of recent work, researchers have been prob- ing the question to what extent these fields can indeed learn and benefit from each other. QML explores the interaction between quantum computing and machine learning, inves- tigating how results and techniques from one field can be used to solve the problems of the other. In recent time, we have witnessed significant breakthroughs in both directions of influence. For instance, quantum computing is finding a vital application in providing speed-ups for machine learning problems, critical in our “big data” world. Conversely, machine learning already permeates many cutting-edge technologies, and may become instrumental in advanced quantum technologies. Aside from quantum speed-up in data analysis, or classical machine learning optimization used in quantum experiments, quan- tum enhancements have also been (theoretically) demonstrated for interactive learning tasks, highlighting the potential of quantum-enhanced learning agents. Finally, works exploring the use of artificial intelligence for the very design of quantum experiments, and for performing parts of genuine research autonomously, have reported their first successes. Beyond the topics of mutual enhancement – exploring what ML/AI can do for quantum physics, and vice versa – researchers have also broached the fundamental issue of quantum generalizations of learning and AI concepts. This deals with questions of the very meaning of learning and intelligence in a world that is fully described by quantum mechanics. In this review, we describe the main ideas, recent developments, and progress in a broad spectrum of research investigating machine learning and artificial intelligence in the quantum domain.},
   adsnote       = {Provided by the SAO/NASA Astrophysics Data System},
   adsurl        = {http://adsabs.harvard.edu/abs/2017arXiv170902779D},
   archiveprefix = {arXiv},
   eprint        = {1709.02779},
   file          = {:Dunjko2017 - Machine learning _& artificial intelligence in the quantum domain.pdf:PDF},
   keywords      = {Quantum Physics, Computer Science - Artificial Intelligence, Computer Science - Computer Vision and Pattern Recognition},
+  month         = sep,
   primaryclass  = {quant-ph},
+  year          = {2017},
 }
 
 @Online{Childs2015,
@@ -401,17 +399,16 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 @Article{Lloyd2014,
   author    = {Seth Lloyd and Masoud Mohseni and Patrick Rebentrost},
   title     = {Quantum principal component analysis},
-  journal   = {Nature Physics},
-  year      = {2014},
-  volume    = {10},
-  number    = {9},
-  month     = jul,
-  pages     = {631--633},
   doi       = {10.1038/nphys3029},
+  number    = {9},
+  pages     = {631--633},
   url       = {https://doi.org/10.1038%2Fnphys3029},
-  abstract  = {The usual way to reveal properties of an unknown quantum state, given many copies of a system in that state, is to perform measurements of different observables and to analyse the results statistically1, 2. For non-sparse but low-rank quantum states, revealing eigenvectors and corresponding eigenvalues in classical form scales super-linearly with the system dimension3, 4, 5, 6. Here we show that multiple copies of a quantum system with density matrix ρ can be used to construct the unitary transformation e−iρt. As a result, one can perform quantum principal component analysis of an unknown low-rank density matrix, revealing in quantum form the eigenvectors corresponding to the large eigenvalues in time exponentially faster than any existing algorithm. We discuss applications to data analysis, process tomography and state discrimination.},
+  volume    = {10},
   file      = {:Lloyd2014 - Quantum principal component analysis.pdf:PDF},
+  journal   = {Nature Physics},
+  month     = jul,
   publisher = {Springer Nature},
+  year      = {2014},
 }
 
 @Article{Harrow2017,
@@ -535,29 +532,29 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 
 @Article{Hopcroft1973,
   author    = {John E. Hopcroft and Richard M. Karp},
-  title     = {An n\^{}(5/2) Algorithm for Maximum Matchings in Bipartite Graphs},
-  journal   = {{SIAM} Journal on Computing},
-  year      = {1973},
-  volume    = {2},
-  number    = {4},
-  month     = dec,
-  pages     = {225--231},
+  title     = {An $n^{(5/2)}$ Algorithm for Maximum Matchings in Bipartite Graphs},
   doi       = {10.1137/0202019},
+  number    = {4},
+  pages     = {225--231},
+  volume    = {2},
+  journal   = {{SIAM} Journal on Computing},
+  month     = dec,
   publisher = {Society for Industrial {\&} Applied Mathematics ({SIAM})},
+  year      = {1973},
 }
 
 @Article{Barriere2009,
-  author    = {L. Barrière and C. Dalfó and M. A. Fiol and M. Mitjana},
+  author    = {L. Barri\`{e}re and C. Dalf\'{o} and M. A. Fiol and M. Mitjana},
   title     = {The generalized hierarchical product of graphs},
-  journal   = {Discrete Mathematics},
-  year      = {2009},
-  volume    = {309},
-  number    = {12},
-  month     = jun,
-  pages     = {3871--3881},
-  issn      = {0012-365X},
   doi       = {10.1016/j.disc.2008.10.028},
+  issn      = {0012-365X},
+  number    = {12},
+  pages     = {3871--3881},
+  volume    = {309},
+  journal   = {Discrete Mathematics},
+  month     = jun,
   publisher = {Elsevier {BV}},
+  year      = {2009},
 }
 
 @InProceedings{Metodi2006,
@@ -730,9 +727,9 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Article{Steiger2018,
-  author      = {Damian S. Steiger and Thomas Häner and Matthias Troyer},
-  title       = {Advantages of a modular high-level quantum programming framework},
+  author      = {Damian S. Steiger and Thomas H\"{a}ner and Matthias Troyer},
   date        = {2018-06-05},
+  title       = {Advantages of a modular high-level quantum programming framework},
   eprint      = {http://arxiv.org/abs/1806.01861v1},
   eprintclass = {quant-ph},
   eprinttype  = {arXiv},
@@ -778,7 +775,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   booktitle   = {{SOFSEM} 2019: Theory and Practice of Computer Science},
   title       = {Sorting Networks on Restricted Topologies},
   doi         = {10.1007/978-3-030-10801-4_6},
-  editor      = {Barbara Catania and Rastislav KrálovičJerzy Nawrocki and Giovanni Pighizzini},
   eprint      = {1612.06473},
   eprintclass = {cs.DS},
   eprinttype  = {arXiv},
@@ -790,7 +786,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   pages       = {54--66},
   publisher   = {Springer Nature Switzerland AG},
   series      = {Lecture Notes in Computer Science},
-  venue       = {Nový Smokovec, Slovaki},
+  venue       = {Nov\'{y} Smokovec, Slovaki},
   abstract    = {The sorting number of a graph with $n$ vertices is the minimum depth of a sorting network with $n$ inputs and outputs that uses only the edges of the graph to perform comparisons. Many known results on sorting networks can be stated in terms of sorting numbers of different classes of graphs. In this paper we show the following general results about the sorting number of graphs. Any $n$-vertex graph that contains a simple path of length $d$ has a sorting network of depth $O(n \log(n/d))$. Any $n$-vertex graph with maximal degree $\Delta$ has a sorting network of depth $O(\Delta n)$. We also provide several results that relate the sorting number of a graph with its routing number, size of its maximal matching, and other well known graph properties. Additionally, we give some new bounds on the sorting number for some typical graphs.},
   file        = {:http\://arxiv.org/pdf/1612.06473v2:PDF},
   keywords    = {cs.DS},
@@ -1007,8 +1003,8 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 
 @Online{IBM2018,
   author  = {IBM},
-  title   = {We Have Winners! … of the IBM Qiskit Developer Challenge},
   date    = {2018-08-20},
+  title   = {We Have Winners! ... of the IBM Qiskit Developer Challenge},
   url     = {https://www.ibm.com/blogs/research/2018/08/winners-qiskit-developer-challenge/},
   urldate = {2018-09-18},
 }
@@ -1460,18 +1456,16 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 
 @InProceedings{Apeldoorn2017,
   author      = {van Apeldoorn, Joran and Gily{\'e}n, Andr{\'a}s and Gribling, Sander and de Wolf, Ronald},
-  title       = {Quantum {SDP}-Solvers: Better Upper and Lower Bounds},
   booktitle   = {2017 {IEEE} 58th Annual Symposium on Foundations of Computer Science ({FOCS})},
-  year        = {2017},
-  publisher   = {{IEEE}},
-  month       = oct,
+  title       = {Quantum {SDP}-Solvers: Better Upper and Lower Bounds},
   doi         = {10.1109/focs.2017.44},
   eprint      = {1705.01843},
   eprintclass = {quant-ph},
   eprinttype  = {arxiv},
-  abstract    = {Branda ̃o and Svore [BS16] recently gave quantum algorithms for approximately solving semidefinite programs, which in some regimes are faster than the best-possible classical al- gorithms in terms of the dimension n of the problem and the number m of constraints, but worse in terms of various other parameters. In this paper we improve their algorithms in sev- eral ways, getting better dependence on those other parameters. To this end we develop new techniques for quantum algorithms, for instance a general way to efficiently implement smooth functions of sparse Hamiltonians, and a generalized minimum-finding procedure.
-We also show limits on this approach to quantum SDP-solvers, for instance for combinatorial optimizations problems that have a lot of symmetry. Finally, we prove some general lower bounds showing that in the worst case, the complexity of every quantum LP-solver (and hence also SDP-solver) has to scale linearly with mn when m ≈ n, which is the same as classical.},
+  publisher   = {{IEEE}},
   file        = {:Apeldoorn2017 - Quantum SDP-Solvers_ Better upper and lower bounds.pdf:PDF},
+  month       = oct,
+  year        = {2017},
 }
 
 @Article{Childs2004,
@@ -1552,10 +1546,10 @@ We also show limits on this approach to quantum SDP-solvers, for instance for co
 }
 
 @InProceedings{Miltzow2016,
-  author       = {Tillmann Miltzow and Lothar Narins and Yoshio Okamoto and Günter Rote and Antonis Thomas and Takeaki Uno},
+  author       = {Tillmann Miltzow and Lothar Narins and Yoshio Okamoto and G\"{u}nter Rote and Antonis Thomas and Takeaki Uno},
   booktitle    = {24th Annual European Symposium on Algorithms (ESA 2016)},
   date         = {2016-02-16},
-  title        = {{Approximation and Hardness of Token Swapping}},
+  title        = {Approximation and Hardness of Token Swapping},
   booksubtitle = {Algorithms},
   doi          = {10.4230/LIPIcs.ESA.2016.66},
   editor       = {Piotr Sankowski and Christos Zaroliagis},
@@ -1563,7 +1557,7 @@ We also show limits on this approach to quantum SDP-solvers, for instance for co
   eprintclass  = {cs.CC},
   eprinttype   = {arXiv},
   isbn         = {978-3-95977-015-6},
-  location     = {Schloss Dagstuhl-Leibniz-Zentrum für Informatik},
+  location     = {Schloss Dagstuhl-Leibniz-Zentrum f\"{u}r Informatik},
   pages        = {66:1--66:15},
   publisher    = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
   series       = {Leibniz International Proceedings in Informatics (LIPIcs)},
@@ -1859,7 +1853,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Article{Acoleyen2013,
-  author    = {Karel Van Acoleyen and Michaël Mariën and Frank Verstraete},
+  author    = {Karel Van Acoleyen and Micha\"{e}l Mari\"{e}n and Frank Verstraete},
   title     = {{Entanglement Rates and Area Laws}},
   doi       = {10.1103/physrevlett.111.170501},
   number    = {17},
@@ -2195,7 +2189,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Article{Siraichi2019,
-  author    = {Siraichi, Marcos Yukio and dos Santos, Vin{\'{\i}}cius Fernandes and Collange, Caroline and Pereira, Fernando Magno Quint{\~{a}}o},
+  author    = {Siraichi, Marcos Yukio and dos Santos, Vin\'{i}cius Fernandes and Collange, Caroline and Pereira, Fernando Magno Quint\~{a}o},
   title     = {Qubit allocation as a combination of subgraph isomorphism and token swapping},
   doi       = {10.1145/3360546},
   number    = {{OOPSLA}},
@@ -2536,22 +2530,24 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Article{Green2013,
-  author     = {Green, Alexander S. and Lumsdaine, Peter LeFanu and Ross, Neil J. and Selinger, Peter and Valiron, Beno\^{\i}t},
-  title      = {Quipper: A Scalable Quantum Programming Language},
-  doi        = {10.1145/2499370.2462177},
-  issn       = {0362-1340},
-  number     = {6},
-  pages      = {333--342},
-  url        = {https://doi.org/10.1145/2499370.2462177},
-  volume     = {48},
-  address    = {New York, NY, USA},
-  issue_date = {June 2013},
-  journal    = {SIGPLAN Not.},
-  keywords   = {quipper, quantum programming languages},
-  month      = {6},
-  numpages   = {10},
-  publisher  = {Association for Computing Machinery},
-  year       = {2013},
+  author       = {Green, Alexander S. and Lumsdaine, Peter LeFanu and Ross, Neil J. and Selinger, Peter and Valiron, Beno\^{i}t},
+  date         = {2013-06},
+  journaltitle = {{ACM} {SIGPLAN} Notices},
+  title        = {Quipper},
+  doi          = {10.1145/2499370.2462177},
+  issn         = {0362-1340},
+  number       = {6},
+  pages        = {333--342},
+  subtitle     = {A Scalable Quantum Programming Language},
+  url          = {https://doi.org/10.1145/2499370.2462177},
+  volume       = {48},
+  address      = {New York, NY, USA},
+  issue_date   = {June 2013},
+  keywords     = {quipper, quantum programming languages},
+  month        = {6},
+  numpages     = {10},
+  publisher    = {Association for Computing Machinery},
+  year         = {2013},
 }
 
 @TechReport{JavadiAbhari2012,
@@ -2564,7 +2560,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Software{Qiskit2019,
-  author = {H{\'e}ctor Abraham and Ismail Yunus Akhalwaya and Gadi Aleksandrowicz and Thomas Alexander and Gadi Alexandrowics and Eli Arbel and Abraham Asfaw and Carlos Azaustre and AzizNgoueya and Panagiotis Barkoutsos and George Barron and Luciano Bello and Yael Ben-Haim and Daniel Bevenius and Lev S. Bishop and Samuel Bosch and Sergey Bravyi and David Bucher and Fran Cabrera and Padraic Calpin and Lauren Capelluto and Jorge Carballo and Gin{\'e}s Carrascal and Adrian Chen and Chun-Fu Chen and Richard Chen and Jerry M. Chow and Christian Claus and Christian Clauss and Abigail J. Cross and Andrew W. Cross and Simon Cross and Juan Cruz-Benito and Chris Culver and Antonio D. C{\'o}rcoles-Gonzales and Sean Dague and Tareq El Dandachi and Matthieu Dartiailh and DavideFrr and Abd{\'o}n Rodr{\'\i}guez Davila and Delton Ding and Jun Doi and Eric Drechsler and Drew and Eugene Dumitrescu and Karel Dumon and Ivan Duran and Kareem EL-Safty and Eric Eastman and Pieter Eendebak and Daniel Egger and Mark Everitt and Paco Mart{\'\i}n Fern{\'a}ndez and Axel Hern{\'a}ndez Ferrera and Albert Frisch and Andreas Fuhrer and MELVIN GEORGE and Julien Gacon and Gadi and Borja Godoy Gago and Jay M. Gambetta and Adhisha Gammanpila and Luis Garcia and Shelly Garion and Juan Gomez-Mosquera and Salvador de la Puente Gonz{\'a}lez and Ian Gould and Donny Greenberg and Dmitry Grinko and Wen Guan and John A. Gunnels and Isabel Haide and Ikko Hamamura and Vojtech Havlicek and Joe Hellmers and {\L}ukasz Herok and Stefan Hillmich and Hiroshi Horii and Connor Howington and Shaohan Hu and Wei Hu and Haruki Imai and Takashi Imamichi and Kazuaki Ishizaki and Raban Iten and Toshinari Itoko and Ali Javadi-Abhari and Jessica and Kiran Johns and Tal Kachmann and Naoki Kanazawa and Kang-Bae and Anton Karazeev and Paul Kassebaum and Spencer King and Knabberjoe and Arseny Kovyrshin and Vivek Krishnan and Kevin Krsulich and Gawel Kus and Ryan LaRose and Rapha{\"e}l Lambert and Joe Latone and Scott Lawrence and Dennis Liu and Peng Liu and Yunho Maeng and Aleksei Malyshev and Jakub Marecek and Manoel Marques and Dolph Mathews and Atsushi Matsuo and Douglas T. McClure and Cameron McGarry and David McKay and Dan McPherson and Srujan Meesala and Martin Mevissen and Antonio Mezzacapo and Rohit Midha and Zlatko Minev and Abby Mitchell and Nikolaj Moll and Michael Duane Mooring and Renier Morales and Niall Moran and Prakash Murali and Jan M{\"u}ggenburg and David Nadlinger and Giacomo Nannicini and Paul Nation and Yehuda Naveh and Patrick Neuweiler and Pradeep Niroula and Hassi Norlen and Lee James O'Riordan and Oluwatobi Ogunbayo and Pauline Ollitrault and Steven Oud and Dan Padilha and Hanhee Paik and Simone Perriello and Anna Phan and Marco Pistoia and Alejandro Pozas-iKerstjens and Viktor Prutyanov and Daniel Puzzuoli and Jes{\'u}s P{\'e}rez and Quintiii and Rudy Raymond and Rafael Mart{\'\i}n-Cuevas Redondo and Max Reuter and Julia Rice and Diego M. Rodr{\'\i}guez and Max Rossmannek and Mingi Ryu and Tharrmashastha SAPV and SamFerracin and Martin Sandberg and Ninad Sathaye and Bruno Schmitt and Chris Schnabel and Zachary Schoenfeld and Travis L. Scholten and Eddie Schoute and Joachim Schwarm and Ismael Faro Sertage and Kanav Setia and Nathan Shammah and Yunong Shi and Adenilton Silva and Andrea Simonetto and Nick Singstock and Yukio Siraichi and Iskandar Sitdikov and Seyon Sivarajah and Magnus Berg Sletfjerding and John A. Smolin and Mathias Soeken and Igor Olegovich Sokolov and SooluThomas and Dominik Steenken and Matt Stypulkoski and Jack Suen and Hitomi Takahashi and Ivano Tavernelli and Charles Taylor and Pete Taylour and Soolu Thomas and Mathieu Tillet and Maddy Tod and Enrique de la Torre and Kenso Trabing and Matthew Treinish and TrishaPe and Wes Turner and Yotam Vaknin and Carmen Recio Valcarce and Francois Varchon and Almudena Carrera Vazquez and Desiree Vogt-Lee and Christophe Vuillot and James Weaver and Rafal Wieczorek and Jonathan A. Wildstrom and Robert Wille and Erick Winston and Jack J. Woehr and Stefan Woerner and Ryan Woo and Christopher J. Wood and Ryan Wood and Stephen Wood and James Wootton and Daniyar Yeralin and Richard Young and Jessie Yu and Christopher Zachow and Laura Zdanski and Christa Zoufal and Zoufalc and azulehner and bcamorrison and brandhsn and chlorophyll-zz and dan1pal and dime10 and drholmie and elfrocampeador and faisaldebouni and fanizzamarco and gruu and kanejess and klinvill and kurarrr and lerongil and ma5x and merav-aharoni and ordmoj and sethmerkel and strickroman and sumitpuri and tigerjack and toural and vvilpas and welien and willhbang and yang.luh and yelojakit and yotamvakninibm},
+  author = {H{\'e}ctor Abraham and Ismail Yunus Akhalwaya and Gadi Aleksandrowicz and Thomas Alexander and Gadi Alexandrowics and Eli Arbel and Abraham Asfaw and Carlos Azaustre and AzizNgoueya and Panagiotis Barkoutsos and George Barron and Luciano Bello and Yael Ben-Haim and Daniel Bevenius and Lev S. Bishop and Samuel Bosch and Sergey Bravyi and David Bucher and Fran Cabrera and Padraic Calpin and Lauren Capelluto and Jorge Carballo and Gin{\'e}s Carrascal and Adrian Chen and Chun-Fu Chen and Richard Chen and Jerry M. Chow and Christian Claus and Christian Clauss and Abigail J. Cross and Andrew W. Cross and Simon Cross and Juan Cruz-Benito and Chris Culver and Antonio D. C{\'o}rcoles-Gonzales and Sean Dague and Tareq El Dandachi and Matthieu Dartiailh and DavideFrr and Abd{\'o}n Rodr{\'i}guez Davila and Delton Ding and Jun Doi and Eric Drechsler and Drew and Eugene Dumitrescu and Karel Dumon and Ivan Duran and Kareem EL-Safty and Eric Eastman and Pieter Eendebak and Daniel Egger and Mark Everitt and Paco Mart{\'i}n Fern{\'a}ndez and Axel Hern{\'a}ndez Ferrera and Albert Frisch and Andreas Fuhrer and MELVIN GEORGE and Julien Gacon and Gadi and Borja Godoy Gago and Jay M. Gambetta and Adhisha Gammanpila and Luis Garcia and Shelly Garion and Juan Gomez-Mosquera and Salvador de la Puente Gonz{\'a}lez and Ian Gould and Donny Greenberg and Dmitry Grinko and Wen Guan and John A. Gunnels and Isabel Haide and Ikko Hamamura and Vojtech Havlicek and Joe Hellmers and {\L}ukasz Herok and Stefan Hillmich and Hiroshi Horii and Connor Howington and Shaohan Hu and Wei Hu and Haruki Imai and Takashi Imamichi and Kazuaki Ishizaki and Raban Iten and Toshinari Itoko and Ali Javadi-Abhari and Jessica and Kiran Johns and Tal Kachmann and Naoki Kanazawa and Kang-Bae and Anton Karazeev and Paul Kassebaum and Spencer King and Knabberjoe and Arseny Kovyrshin and Vivek Krishnan and Kevin Krsulich and Gawel Kus and Ryan LaRose and Rapha{\"e}l Lambert and Joe Latone and Scott Lawrence and Dennis Liu and Peng Liu and Yunho Maeng and Aleksei Malyshev and Jakub Marecek and Manoel Marques and Dolph Mathews and Atsushi Matsuo and Douglas T. McClure and Cameron McGarry and David McKay and Dan McPherson and Srujan Meesala and Martin Mevissen and Antonio Mezzacapo and Rohit Midha and Zlatko Minev and Abby Mitchell and Nikolaj Moll and Michael Duane Mooring and Renier Morales and Niall Moran and Prakash Murali and Jan M{\"u}ggenburg and David Nadlinger and Giacomo Nannicini and Paul Nation and Yehuda Naveh and Patrick Neuweiler and Pradeep Niroula and Hassi Norlen and Lee James O'Riordan and Oluwatobi Ogunbayo and Pauline Ollitrault and Steven Oud and Dan Padilha and Hanhee Paik and Simone Perriello and Anna Phan and Marco Pistoia and Alejandro Pozas-iKerstjens and Viktor Prutyanov and Daniel Puzzuoli and Jes{\'u}s P{\'e}rez and Quintiii and Rudy Raymond and Rafael Mart{\'i}n-Cuevas Redondo and Max Reuter and Julia Rice and Diego M. Rodr{\'i}guez and Max Rossmannek and Mingi Ryu and Tharrmashastha SAPV and SamFerracin and Martin Sandberg and Ninad Sathaye and Bruno Schmitt and Chris Schnabel and Zachary Schoenfeld and Travis L. Scholten and Eddie Schoute and Joachim Schwarm and Ismael Faro Sertage and Kanav Setia and Nathan Shammah and Yunong Shi and Adenilton Silva and Andrea Simonetto and Nick Singstock and Yukio Siraichi and Iskandar Sitdikov and Seyon Sivarajah and Magnus Berg Sletfjerding and John A. Smolin and Mathias Soeken and Igor Olegovich Sokolov and SooluThomas and Dominik Steenken and Matt Stypulkoski and Jack Suen and Hitomi Takahashi and Ivano Tavernelli and Charles Taylor and Pete Taylour and Soolu Thomas and Mathieu Tillet and Maddy Tod and Enrique de la Torre and Kenso Trabing and Matthew Treinish and TrishaPe and Wes Turner and Yotam Vaknin and Carmen Recio Valcarce and Francois Varchon and Almudena Carrera Vazquez and Desiree Vogt-Lee and Christophe Vuillot and James Weaver and Rafal Wieczorek and Jonathan A. Wildstrom and Robert Wille and Erick Winston and Jack J. Woehr and Stefan Woerner and Ryan Woo and Christopher J. Wood and Ryan Wood and Stephen Wood and James Wootton and Daniyar Yeralin and Richard Young and Jessie Yu and Christopher Zachow and Laura Zdanski and Christa Zoufal and Zoufalc and azulehner and bcamorrison and brandhsn and chlorophyll-zz and dan1pal and dime10 and drholmie and elfrocampeador and faisaldebouni and fanizzamarco and gruu and kanejess and klinvill and kurarrr and lerongil and ma5x and merav-aharoni and ordmoj and sethmerkel and strickroman and sumitpuri and tigerjack and toural and vvilpas and welien and willhbang and yang.luh and yelojakit and yotamvakninibm},
   date   = {2019},
   title  = {Qiskit: An Open-source Framework for Quantum Computing},
   doi    = {10.5281/zenodo.2562110},
@@ -2827,7 +2823,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Article{Hein2006,
-  author      = {Hein, M. and Dür, W. and Eisert, J. and Raussendorf, R. and den Nest, M. Van and Briegel, H. J.},
+  author      = {Hein, M. and D\"{u}r, W. and Eisert, J. and Raussendorf, R. and den Nest, M. Van and Briegel, H. J.},
   date        = {2006-02-11},
   title       = {Entanglement in Graph States and its Applications},
   eprint      = {quant-ph/0602096v1},
@@ -2999,7 +2995,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 
 @InProceedings{Raghavan1994,
   author    = {Prabhakar Raghavan and Eli Upfal},
-  booktitle = {Proceedings of the twenty-sixth annual {ACM} symposium on Theory of computing - {STOC} {\textquotesingle}94},
+  booktitle = {Proceedings of the twenty-sixth annual {ACM} symposium on Theory of computing},
   date      = {1994},
   title     = {Efficient routing in all-optical networks},
   doi       = {10.1145/195058.195119},
@@ -3054,7 +3050,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 @Online{QuantumAIlab2018,
   author  = {{Google Quantum AI lab}},
   date    = {2018-03-05},
-  title   = {A Preview of Bristlecone, Google’s New Quantum Processor},
+  title   = {A Preview of Bristlecone, Google's New Quantum Processor},
   url     = {https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html},
   urldate = {2021-09-12},
 }
@@ -3187,7 +3183,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @Article{Jurcevic2021,
-  author       = {Jurcevic, Petar and Javadi-Abhari, Ali and Bishop, Lev S. and Lauer, Isaac and Bogorin, Daniela F. and Brink, Markus and Capelluto, Lauren and Günlük, Oktay and Itoko, Toshinari and Kanazawa, Naoki and Kandala, Abhinav and Keefe, George A. and Krsulich, Kevin and Landers, William and Lewandowski, Eric P. and McClure, Douglas T. and Nannicini, Giacomo and Narasgond, Adinath and Nayfeh, Hasan M. and Pritchett, Emily and Rothwell, Mary Beth and Srinivasan, Srikanth and Sundaresan, Neereja and Wang, Cindy and Wei, Ken X. and Wood, Christopher J. and Yau, Jeng-Bang and Zhang, Eric J. and Dial, Oliver E. and Chow, Jerry M. and Gambetta, Jay M.},
+  author       = {Jurcevic, Petar and Javadi-Abhari, Ali and Bishop, Lev S. and Lauer, Isaac and Bogorin, Daniela F. and Brink, Markus and Capelluto, Lauren and G\"{u}nl\"{u}k, Oktay and Itoko, Toshinari and Kanazawa, Naoki and Kandala, Abhinav and Keefe, George A. and Krsulich, Kevin and Landers, William and Lewandowski, Eric P. and McClure, Douglas T. and Nannicini, Giacomo and Narasgond, Adinath and Nayfeh, Hasan M. and Pritchett, Emily and Rothwell, Mary Beth and Srinivasan, Srikanth and Sundaresan, Neereja and Wang, Cindy and Wei, Ken X. and Wood, Christopher J. and Yau, Jeng-Bang and Zhang, Eric J. and Dial, Oliver E. and Chow, Jerry M. and Gambetta, Jay M.},
   date         = {2021-03},
   journaltitle = {Quantum Science and Technology},
   title        = {Demonstration of quantum volume 64 on a superconducting quantum computing system},
@@ -3337,7 +3333,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   pages        = {120 - 127},
   url          = {http://www.sciencedirect.com/science/article/pii/S1672022905030160},
   volume       = {3},
-  abstract     = {Classical sorting by reversals uses the unit-cost model, that is, each reversal consumes an equal cost. This model limits the biological meaning of sorting by reversal. Bender and his colleagues extended it by assigning a cost function f(l) = lα for all α ≥ 0, where l is the length of the reversed subsequence. In this paper, we extend their results by considering a model in which long reversals are prohibited. Using the same cost function above for permitted reversals, we present tight or nearly tight bounds for the worst-case cost of sorting by reversals. Then we develop algorithms to approximate the optimal cost to sort a given 0/1 sequence as well as a given permutation. Our proposed problems are more biologically meaningful and more algorithmically general and challenging than the problem considered by Bender et al. Furthermore, our bounds are tight and nearly tight, whereas our algorithms provide good approximation ratios compared to the optimal cost to sort 0/1 sequences or permutations by reversals.},
   keywords     = {reversal, sorting, length-weighted, permutation},
 }
 
@@ -3363,7 +3358,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   pages        = {744 - 774},
   url          = {http://www.sciencedirect.com/science/article/pii/S0022000007001298},
   volume       = {74},
-  abstract     = {We study the problem of sorting binary sequences and permutations by length-weighted reversals. We consider a wide class of cost functions, namely f(ℓ)=ℓα for all α⩾0, where ℓ is the length of the reversed subsequence. We present tight or nearly tight upper and lower bounds on the worst-case cost of sorting by reversals. Then we develop algorithms to approximate the optimal cost to sort a given input. Furthermore, we give polynomial-time algorithms to determine the optimal reversal sequence for a restricted but interesting class of sequences and cost functions. Our results have direct application in computational biology to the field of comparative genomics.},
   keywords     = {Sorting by reversals, Potential functions, Dynamic programming, Sorting 0/1 sequences by reversals, Modeling genome rearrangements},
 }
 
@@ -3567,15 +3561,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   title     = {Quantum circuits with mixed states},
   doi       = {10.1145/276698.276708},
   publisher = {{ACM} Press},
-}
-
-@Software{Qiskit2021,
-  author = {MD SAJID ANIS and H{\'e}ctor Abraham and AduOffei and Rochisha Agarwal and Gabriele Agliardi and Merav Aharoni and Ismail Yunus Akhalwaya and Gadi Aleksandrowicz and Thomas Alexander and Matthew Amy and Sashwat Anagolum and Eli Arbel and Abraham Asfaw and Anish Athalye and Artur Avkhadiev and Carlos Azaustre and PRATHAMESH BHOLE and Abhik Banerjee and Santanu Banerjee and Will Bang and Aman Bansal and Panagiotis Barkoutsos and Ashish Barnawal and George Barron and George S. Barron and Luciano Bello and Yael Ben-Haim and Daniel Bevenius and Dhruv Bhatnagar and Arjun Bhobe and Paolo Bianchini and Lev S. Bishop and Carsten Blank and Sorin Bolos and Soham Bopardikar and Samuel Bosch and Sebastian Brandhofer and Brandon and Sergey Bravyi and Nick Bronn and Bryce-Fuller and David Bucher and Artemiy Burov and Fran Cabrera and Padraic Calpin and Lauren Capelluto and Jorge Carballo and Gin{\'e}s Carrascal and Adam Carriker and Ivan Carvalho and Adrian Chen and Chun-Fu Chen and Edward Chen and Jielun (Chris) Chen and Richard Chen and Franck Chevallier and Rathish Cholarajan and Jerry M. Chow and Spencer Churchill and Christian Claus and Christian Clauss and Caleb Clothier and Romilly Cocking and Ryan Cocuzzo and Jordan Connor and Filipe Correa and Abigail J. Cross and Andrew W. Cross and Simon Cross and Juan Cruz-Benito and Chris Culver and Antonio D. C{\'o}rcoles-Gonzales and Navaneeth D and Sean Dague and Tareq El Dandachi and Animesh N Dangwal and Jonathan Daniel and Marcus Daniels and Matthieu Dartiailh and Abd{\'o}n Rodr{\'\i}guez Davila and Faisal Debouni and Anton Dekusar and Amol Deshmukh and Mohit Deshpande and Delton Ding and Jun Doi and Eli M. Dow and Eric Drechsler and Eugene Dumitrescu and Karel Dumon and Ivan Duran and Kareem EL-Safty and Eric Eastman and Grant Eberle and Amir Ebrahimi and Pieter Eendebak and Daniel Egger and Emilio and Alberto Espiricueta and Mark Everitt and Davide Facoetti and Farida and Paco Mart{\'\i}n Fern{\'a}ndez and Samuele Ferracin and Davide Ferrari and Axel Hern{\'a}ndez Ferrera and Romain Fouilland and Albert Frisch and Andreas Fuhrer and Bryce Fuller and MELVIN GEORGE and Julien Gacon and Borja Godoy Gago and Claudio Gambella and Jay M. Gambetta and Adhisha Gammanpila and Luis Garcia and Tanya Garg and Shelly Garion and Tim Gates and Leron Gil and Austin Gilliam and Aditya Giridharan and Juan Gomez-Mosquera and Gonzalo and Salvador de la Puente Gonz{\'a}lez and Jesse Gorzinski and Ian Gould and Donny Greenberg and Dmitry Grinko and Wen Guan and John A. Gunnels and Harshit Gupta and Naman Gupta and Jakob M. G{\"u}nther and Mikael Haglund and Isabel Haide and Ikko Hamamura and Omar Costa Hamido and Frank Harkins and Areeq Hasan and Vojtech Havlicek and Joe Hellmers and {\L}ukasz Herok and Stefan Hillmich and Hiroshi Horii and Connor Howington and Shaohan Hu and Wei Hu and Junye Huang and Rolf Huisman and Haruki Imai and Takashi Imamichi and Kazuaki Ishizaki and Ishwor and Raban Iten and Toshinari Itoko and Alexander Ivrii and Ali Javadi and Ali Javadi-Abhari and Wahaj Javed and Qian Jianhua and Madhav Jivrajani and Kiran Johns and Scott Johnstun and Jonathan-Shoemaker and JosDenmark and JoshDumo and John Judge and Tal Kachmann and Akshay Kale and Naoki Kanazawa and Jessica Kane and Kang-Bae and Annanay Kapila and Anton Karazeev and Paul Kassebaum and Josh Kelso and Scott Kelso and Vismai Khanderao and Spencer King and Yuri Kobayashi and Kovi11Day and Arseny Kovyrshin and Rajiv Krishnakumar and Vivek Krishnan and Kevin Krsulich and Prasad Kumkar and Gawel Kus and Ryan LaRose and Enrique Lacal and Rapha{\"e}l Lambert and Haggai Landa and John Lapeyre and Joe Latone and Scott Lawrence and Christina Lee and Gushu Li and Jake Lishman and Dennis Liu and Peng Liu and Yunho Maeng and Saurav Maheshkar and Kahan Majmudar and Aleksei Malyshev and Mohamed El Mandouh and Joshua Manela and Manjula and Jakub Marecek and Manoel Marques and Kunal Marwaha and Dmitri Maslov and Pawe{\l} Maszota and Dolph Mathews and Atsushi Matsuo and Farai Mazhandu and Doug McClure and Maureen McElaney and Cameron McGarry and David McKay and Dan McPherson and Srujan Meesala and Dekel Meirom and Corey Mendell and Thomas Metcalfe and Martin Mevissen and Andrew Meyer and Antonio Mezzacapo and Rohit Midha and Zlatko Minev and Abby Mitchell and Nikolaj Moll and Alejandro Montanez and Gabriel Monteiro and Michael Duane Mooring and Renier Morales and Niall Moran and David Morcuende and Seif Mostafa and Mario Motta and Romain Moyard and Prakash Murali and Jan M{\"u}ggenburg and David Nadlinger and Ken Nakanishi and Giacomo Nannicini and Paul Nation and Edwin Navarro and Yehuda Naveh and Scott Wyman Neagle and Patrick Neuweiler and Aziz Ngoueya and Johan Nicander and Nick-Singstock and Pradeep Niroula and Hassi Norlen and NuoWenLei and Lee James O'Riordan and Oluwatobi Ogunbayo and Pauline Ollitrault and Tamiya Onodera and Raul Otaolea and Steven Oud and Dan Padilha and Hanhee Paik and Soham Pal and Yuchen Pang and Ashish Panigrahi and Vincent R. Pascuzzi and Simone Perriello and Eric Peterson and Anna Phan and Francesco Piro and Marco Pistoia and Christophe Piveteau and Julia Plewa and Pierre Pocreau and Alejandro Pozas-Kerstjens and Rafa{\l} Pracht and Milos Prokop and Viktor Prutyanov and Sumit Puri and Daniel Puzzuoli and Jes{\'u}s P{\'e}rez and Quintiii and Isha R and Rafey Iqbal Rahman and Arun Raja and Roshan Rajeev and Nipun Ramagiri and Anirudh Rao and Rudy Raymond and Oliver Reardon-Smith and Rafael Mart{\'\i}n-Cuevas Redondo and Max Reuter and Julia Rice and Matt Riedemann and Drew Risinger and Marcello La Rocca and Diego M. Rodr{\'\i}guez and RohithKarur and Ben Rosand and Max Rossmannek and Mingi Ryu and Tharrmashastha SAPV and Arijit Saha and Abdullah Ash- Saki and Sankalp Sanand and Martin Sandberg and Hirmay Sandesara and Ritvik Sapra and Hayk Sargsyan and Aniruddha Sarkar and Ninad Sathaye and Bruno Schmitt and Chris Schnabel and Zachary Schoenfeld and Travis L. Scholten and Eddie Schoute and Mark Schulterbrandt and Joachim Schwarm and James Seaward and Sergi and Ismael Faro Sertage and Kanav Setia and Freya Shah and Nathan Shammah and Rohan Sharma and Yunong Shi and Jonathan Shoemaker and Adenilton Silva and Andrea Simonetto and Divyanshu Singh and Parmeet Singh and Phattharaporn Singkanipa and Yukio Siraichi and Siri and Jes{\'u}s Sistos and Iskandar Sitdikov and Seyon Sivarajah and Magnus Berg Sletfjerding and John A. Smolin and Mathias Soeken and Igor Olegovich Sokolov and Igor Sokolov and Vicente P. Soloviev and SooluThomas and Starfish and Dominik Steenken and Matt Stypulkoski and Adrien Suau and Shaojun Sun and Kevin J. Sung and Makoto Suwama and Oskar S{\l}owik and Hitomi Takahashi and Tanvesh Takawale and Ivano Tavernelli and Charles Taylor and Pete Taylour and Soolu Thomas and Mathieu Tillet and Maddy Tod and Miroslav Tomasik and Enrique de la Torre and Juan Luis S{\'a}nchez Toural and Kenso Trabing and Matthew Treinish and Dimitar Trenev and TrishaPe and Felix Truger and Georgios Tsilimigkounakis and Davindra Tulsi and Wes Turner and Yotam Vaknin and Carmen Recio Valcarce and Francois Varchon and Adish Vartak and Almudena Carrera Vazquez and Prajjwal Vijaywargiya and Victor Villar and Bhargav Vishnu and Desiree Vogt-Lee and Christophe Vuillot and James Weaver and Johannes Weidenfeller and Rafal Wieczorek and Jonathan A. Wildstrom and Jessica Wilson and Erick Winston and WinterSoldier and Jack J. Woehr and Stefan Woerner and Ryan Woo and Christopher J. Wood and Ryan Wood and Steve Wood and James Wootton and Matt Wright and Bo Yang and Daniyar Yeralin and Ryota Yonekura and David Yonge-Mallo and Richard Young and Jessie Yu and Lebin Yu and Christopher Zachow and Laura Zdanski and Helena Zhang and Christa Zoufal and aeddins-ibm and alexzhang13 and b63 and bartek-bartlomiej and bcamorrison and brandhsn and catornow and charmerDark and deeplokhande and dekel.meirom and dime10 and ehchen and fanizzamarco and fs1132429 and gadial and galeinston and georgezhou20 and georgios-ts and gruu and hhorii and hykavitha and itoko and jliu45 and jscott2 and klinvill and krutik2966 and ma5x and michelle4654 and msuwama and ntgiwsvp and ordmoj and sagar pahwa and pritamsinha2304 and ryancocuzzo and saswati-qiskit and septembrr and sethmerkel and shaashwat and sternparky and strickroman and tigerjack and tsura-crisaldo and vadebayo49 and welien and willhbang and wmurphy-collabstar and yang.luh and Mantas {\v{C}}epulkovskis},
-  date   = {2021},
-  title  = {Qiskit: An Open-source Framework for Quantum Computing},
-  doi    = {10.5281/zenodo.2573505},
-  type   = {software},
-  label  = {Qis},
 }
 
 @Article{Chamberland2020b,
@@ -3798,24 +3783,6 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   publisher = {{ACM} Press},
 }
 
-@InProceedings{Chuzhoy2015,
-  author     = {Julia Chuzhoy and David H. K. Kim},
-  booktitle  = {Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (APPROX/RANDOM 2015)},
-  date       = {2015},
-  title      = {{On Approximating Node-Disjoint Paths in Grids}},
-  doi        = {10.4230/LIPIcs.APPROX-RANDOM.2015.187},
-  editor     = {Naveen Garg and Klaus Jansen and Anup Rao and Jos{\'e} D. P. Rolim},
-  isbn       = {978-3-939897-89-7},
-  location   = {Dagstuhl, Germany},
-  pages      = {187--211},
-  publisher  = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
-  series     = {Leibniz International Proceedings in Informatics (LIPIcs)},
-  volume     = {40},
-  annotation = {Keywords: Node-disjoint paths, approximation algorithms, routing and layout},
-  issn       = {1868-8969},
-  urn        = {urn:nbn:de:0030-drops-53032},
-}
-
 @Article{Chekuri2006,
   author       = {Chandra Chekuri and Sanjeev Khanna and F. Bruce Shepherd},
   date         = {2006},
@@ -3837,7 +3804,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
   location  = {3600 University City Science Center, Philadelphia, PA, United States},
   pages     = {567–576},
   publisher = {Society for Industrial and Applied Mathematics},
-  series    = {SODA ’95},
+  series    = {SODA '95},
   numpages  = {10},
 }
 
@@ -3906,7 +3873,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @InCollection{Kobayashi2009,
-  author    = {Hirotada Kobayashi and Fran{\c{c}}ois Le Gall and Harumichi Nishimura and Martin Rötteler},
+  author    = {Kobayashi, Hirotada and Gall, Fran{\c{c}}ois Le and Nishimura, Harumichi and R\"{o}tteler, Martin},
   booktitle = {Automata, Languages and Programming},
   date      = {2009},
   title     = {General Scheme for Perfect Quantum Network Coding with Free Classical Communication},
@@ -3916,7 +3883,7 @@ For large enough |V |, our algorithm outperforms standard routing algorithms suc
 }
 
 @InProceedings{Kobayashi2011,
-  author    = {Hirotada Kobayashi and Fran{\c{c}}ois Le Gall and Harumichi Nishimura and Martin Rötteler},
+  author    = {Kobayashi, Hirotada and Gall, Fran{\c{c}}ois Le and Nishimura, Harumichi and R\"{o}tteler, Martin},
   booktitle = {2011 {IEEE} International Symposium on Information Theory Proceedings},
   date      = {2011-07},
   title     = {Constructing quantum network coding schemes from classical nonlinear protocols},
@@ -4033,6 +4000,22 @@ flow problems that do not admit a linear solution.},
   volume       = {87},
   comment      = {toffoli multi-controlled-x uncomputation},
   publisher    = {American Physical Society ({APS})},
+}
+
+@InProceedings{Chuzhoy2015,
+  author    = {Julia Chuzhoy and David H. K. Kim},
+  booktitle = {Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques (APPROX/RANDOM 2015)},
+  date      = {2015},
+  title     = {On Approximating Node-Disjoint Paths in Grids},
+  doi       = {10.4230/LIPIcs.APPROX-RANDOM.2015.187},
+  editor    = {Naveen Garg and Klaus Jansen and Anup Rao and Jos{\'e} D. P. Rolim},
+  isbn      = {978-3-939897-89-7},
+  location  = {Dagstuhl, Germany},
+  pages     = {187--211},
+  publisher = {Schloss Dagstuhl--Leibniz-Zentrum f\"{u}r Informatik},
+  series    = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  volume    = {40},
+  issn      = {1868-8969},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
